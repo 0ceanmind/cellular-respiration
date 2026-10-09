@@ -345,7 +345,9 @@ i { font-style: italic; }
 .mnemonic b { font-weight: 800; color: #fff; }
 
 /* ── references ─────────────────────────────────────── */
-.refs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.refs { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 24px; }
+.refs .ref:first-child { grid-row: span 2; }
+.refs .ref:first-child p.dim { margin-top: 18px; line-height: 1.5; }
 .ref {
   padding: 36px 40px; border-radius: var(--r-md);
   background: var(--surface-2); border: 1px solid var(--hairline);

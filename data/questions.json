@@ -3331,7 +3331,7 @@
         "Low ATP → Na⁺/K⁺ pump failure → net loss of K⁺ and water → rigid, spiculated cells → removal by the spleen"
       ],
       "answer": 4,
-      "explanation": "Severe ATP shortage stops the Na⁺/K⁺ pump; K⁺ leaks out rapidly while Na⁺ leaks in slowly, so the cells lose K⁺ and water, shrink, become rigid and spiculated and lose their biconcave shape, and the spleen destroys them prematurely (haemolysis with splenomegaly). Heinz bodies, bite cells and low NADPH belong to G6PD deficiency.",
+      "explanation": "Severe ATP shortage stops the Na⁺/K⁺ pump; K⁺ leaks out rapidly while Na⁺ leaks in slowly, so the cells lose K⁺ and water, shrink, become rigid and spiculated and lose their biconcave shape, and the spleen destroys them prematurely (haemolysis with splenomegaly). Heinz bodies, bite cells and low NADPH belong to G6PD deficiency. (K⁺ loss is also driven by the Ca²⁺-activated Gardos channel.)",
       "origin": "Adapted from Lecture L.11 clinical case (options written for this bank)",
       "sourceUrl": ""
     },

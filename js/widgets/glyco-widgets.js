@@ -601,17 +601,18 @@ register('pkcase', (el) => {
 /* ─────────────── fluoride tube ─────────────── */
 register('fluoride', (el) => {
   const svg = mount(el, 1040, 860, `
-    <g transform="translate(60 80)">
-      <text x="0" y="-20" font-size="26" font-weight="650" fill="#98989f">Glucose in the sample</text>
+    <g transform="translate(110 80)">
+      <text x="0" y="-20" font-size="26" font-weight="650" fill="#98989f">Glucose left in the sample</text>
       <rect width="560" height="520" fill="none" stroke="#ffffff22"/>
+      ${[100, 90, 80].map(v => `<line x1="0" x2="560" y1="${60 + (100 - v) * 18}" y2="${60 + (100 - v) * 18}" stroke="#ffffff12"/><text x="-12" y="${68 + (100 - v) * 18}" text-anchor="end" font-size="20" fill="#6e6e73">${v}%</text>`).join("")}
       ${[0, 1, 2, 3].map(v => `<text x="${v / 3 * 560}" y="556" text-anchor="middle" font-size="22" fill="#6e6e73">${v} h</text>`).join('')}
       <text x="280" y="600" text-anchor="middle" font-size="22" font-weight="600" fill="#98989f">Time at room temperature</text>
       <path class="plain" d="M0 60 L 560 420" stroke="#ff453a" stroke-width="6" fill="none" stroke-linecap="round"/>
-      <path class="fl" d="M0 60 C 90 70, 150 92, 220 96 L 560 98" stroke="#30d158" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
+      <path class="fl" d="M0 60 C 70 72, 140 130, 230 154 C 300 166, 420 168, 560 168" stroke="#30d158" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"/>
       <text class="plainl" x="566" y="430" font-size="24" font-weight="700" fill="#ff6961">plain tube</text>
-      <text class="fll" x="566" y="104" font-size="24" font-weight="700" fill="#30d158" opacity="0">fluoride</text>
+      <text class="fll" x="566" y="174" font-size="24" font-weight="700" fill="#30d158" opacity="0">fluoride</text>
       <rect class="cover" x="0" y="0" width="560" height="520" fill="#000"/>
-      <text x="556" y="-20" text-anchor="end" font-size="20" fill="#6e6e73">illustrative</text>
+      <text x="556" y="-20" text-anchor="end" font-size="20" fill="#6e6e73">≈ 5–7% lost per hour without fluoride</text>
     </g>
     <g transform="translate(830 120)">
       <rect x="-60" y="0" width="120" height="560" rx="60" fill="rgba(255,255,255,.06)" stroke="#ffffff55" stroke-width="3"/>
