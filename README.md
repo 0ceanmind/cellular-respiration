@@ -1,8 +1,8 @@
 # Cellular Respiration — interactive lecture
 
-An interactive, 3D web presentation on the **pyruvate dehydrogenase complex, the TCA cycle, the electron transport chain and oxidative phosphorylation** (lectures L.10, L.12, L.13 · College of Medicine & Health Sciences, National University of Science & Technology, Oman), plus a 125-question self-test.
+An interactive, 3D web presentation on **glycolysis, the pyruvate dehydrogenase complex, the TCA cycle, the electron transport chain and oxidative phosphorylation** (lectures L.10, L.11, L.12, L.13 · College of Medicine & Health Sciences, National University of Science & Technology, Oman), plus a 175-question self-test.
 
-- `index.html` — the presentation (38 slides, live 3D models and simulations)
+- `index.html` — the presentation (56 slides in four chapters, live 3D models and simulations)
 - `quiz.html` — the question bank (works on phones too)
 
 ## Presenting
@@ -22,7 +22,7 @@ Hover anything with a dotted underline or glow to reveal a detail card. Drag 3D 
 ## Sources
 
 - Lippincott Illustrated Reviews: Biochemistry, 9th ed. (Abali, Cline, Franklin, Viselli; Wolters Kluwer)
-- Lecture slides L.10 (Dr. D. Vijaya Marakala) and L.12–L.13, COMHS, National University of Science & Technology
+- Lecture slides L.10 (Dr. D. Vijaya Marakala), L.11 and L.12–L.13, COMHS, National University of Science & Technology
 - Supporting facts in hover cards checked against NCBI Bookshelf (StatPearls), PubMed Central and nobelprize.org
 
 3D models are schematic teaching models, not atomic structures.

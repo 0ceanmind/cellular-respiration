@@ -158,7 +158,7 @@ class App {
     const n = this.slides.length;
     $('.progress .bar').style.width = ((this.index + 1) / n * 100) + '%';
     const s = this.slides[this.index];
-    const secNames = { 1: 'The Bridge', 2: 'The Cycle', 3: 'The Power Plant' };
+    const secNames = { 0: 'The Split', 1: 'The Bridge', 2: 'The Cycle', 3: 'The Power Plant' };
     $('.counter .sec').textContent = secNames[s.dataset.section] || '';
     $('.counter .num').textContent = `${this.index + 1} / ${n}`;
     $$('.ov-card').forEach((c, j) => c.classList.toggle('cur', j === this.index));
@@ -183,7 +183,7 @@ class App {
   buildOverview() {
     const grid = $('.ov-grid');
     grid.innerHTML = this.slides.map((s, i) =>
-      `<button class="ov-card sec${s.dataset.section || 0}" data-i="${i}"><span class="n">${i + 1}</span><span class="t">${s.dataset.title || ''}</span></button>`
+      `<button class="ov-card sec${s.dataset.section ?? 'x'}" data-i="${i}"><span class="n">${i + 1}</span><span class="t">${s.dataset.title || ''}</span></button>`
     ).join('');
     grid.addEventListener('click', e => {
       const c = e.target.closest('.ov-card'); if (!c) return;

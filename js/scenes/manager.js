@@ -10,6 +10,9 @@ const W = 1920, H = 1080;
 
 const LOADERS = {
   mito: () => import('./mito.js'),
+  glucose: () => import('./glucose.js'),
+  glyline: () => import('./glyline.js'),
+  rbc: () => import('./rbc.js'),
   bridge: () => import('./bridge.js'),
   pdh: () => import('./pdh.js'),
   citrate: () => import('./citrate.js'),

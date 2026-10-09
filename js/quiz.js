@@ -4,6 +4,7 @@ const embed = new URLSearchParams(location.search).has('embed');
 if (embed) document.body.classList.add('embed');
 
 const CHAPTERS = [
+  { n: 'The Split', c: '#3d8bff', t: ['Glucose transport', 'Glycolysis steps', 'Hexokinase & glucokinase', 'Glycolysis energetics', 'Anaerobic & lactate', 'RBC glycolysis', 'Glycolysis regulation', 'Glycolysis poisons', 'PK deficiency'] },
   { n: 'The Bridge', c: '#30d158', t: ['PDH complex', 'PDH analogues', 'PDH deficiency', 'Thiamine'] },
   { n: 'The Cycle', c: '#ff9f0a', t: ['TCA steps', 'TCA energetics', 'TCA regulation', 'Amphibolic'] },
   { n: 'The Power Plant', c: '#7d7aff', t: ['ETC components', 'Chemiosmotic & ATP yield', 'ATP synthase', 'Inhibitors', 'Uncouplers'] },
@@ -165,11 +166,14 @@ addEventListener('keydown', e => {
 fetch('data/questions.json').then(r => r.json()).then(d => {
   BANK = d.questions;
   $('#qcount').textContent = BANK.length;
-  const saved = store.get('topics', null);
-  (saved && saved.length ? saved : CHAPTERS.flatMap(c => c.t)).forEach(t => selected.add(t));
+  const saved = store.get('topics', null), all = CHAPTERS.flatMap(c => c.t);
+  // a saved selection from before new topics existed would hide them — only reuse it if it is current
+  const fresh = saved && saved.length && store.get('topicsVer', 0) === all.length;
+  (fresh ? saved : all).forEach(t => selected.add(t));
+  store.set('topicsVer', all.length);
   renderTopics();
   const ps = d.meta.pastPaperSearch || {};
-  $('#aboutText').textContent = `${ps.found ? '' : 'No public National University (Oman) past papers on this chapter could be found, so these are exam-style questions written from the lecture slides (L.10, L.12, L.13) and Lippincott Illustrated Reviews: Biochemistry. '}The lecturer's own critical-thinking questions are included, and 8 questions are adapted from an unverified Oman Medical College topic list. ATP values follow the lecture convention: NADH = 2.5, FADH₂ = 1.5 ATP.`;
+  $('#aboutText').textContent = `${ps.found ? '' : 'No public National University (Oman) past papers on this chapter could be found, so these are exam-style questions written from the lecture slides (L.10, L.11, L.12, L.13) and Lippincott Illustrated Reviews: Biochemistry. '}The lecturers' own critical-thinking questions are included, and 8 questions are adapted from an unverified Oman Medical College topic list. ATP values follow the lecture convention: NADH = 2.5, FADH₂ = 1.5 ATP.`;
   const best = store.get('best', {});
   const top = Math.max(0, ...Object.values(best));
   if (top) $('#best').textContent = `Your best so far: ${top}%`;

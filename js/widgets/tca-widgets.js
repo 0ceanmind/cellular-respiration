@@ -308,6 +308,14 @@ register('regulation', (el) => {
 
 /* ─────────────── lecture MCQs ─────────────── */
 const MCQ = {
+  glynet: {
+    k: 'Critical thinking · from the lecture', g: 'grad-0',
+    stem: 'What is the <b>net</b> amount of energy produced when <b>glucose</b> is converted into <b>pyruvate</b>?',
+    opts: ['2', '4', '6', '8', '10'],
+    a: [0, 3], tags: { 0: 'net ATP', 3: 'ATP + 2 NADH (3 each)' },
+    label: 'Depends on what you count',
+    why: '<b>4 ATP made − 2 ATP used = 2 ATP</b> by substrate-level phosphorylation (a). Counting the <b>2 NADH</b> too: at 3 ATP each (older value) → 2 + 6 = <b>8</b> (d); at 2.5 each → 7.',
+  },
   idh: {
     k: 'Critical thinking · from the lecture',
     stem: 'The citric acid cycle is regulated at <b>3</b> distinct points. One regulatory enzyme is <b>isocitrate dehydrogenase</b>. Which of the following are inhibitors of this enzyme?',
@@ -327,16 +335,17 @@ register('mcq', (el) => {
   const q = MCQ[el.dataset.q];
   el.innerHTML = `
   <div class="mcq">
-    <p class="eyebrow grad-2">${q.k}</p>
+    <p class="eyebrow ${q.g || 'grad-2'}">${q.k}</p>
     <h2 class="mstem">${q.stem}</h2>
-    <div class="mopts">${q.opts.map((o, i) => `<button class="mopt" data-i="${i}"><span class="ml">${'abcde'[i]}</span><span class="mt">${o}</span></button>`).join('')}</div>
-    <div class="mwhy"><span class="mwk">Answer · ${'abcde'[q.a]}</span><p>${q.why}</p></div>
+    <div class="mopts">${q.opts.map((o, i) => `<button class="mopt" data-i="${i}"><span class="ml">${'abcde'[i]}</span><span class="mt">${o}</span>${q.tags && q.tags[i] ? `<span class="mtag">${q.tags[i]}</span>` : ''}</button>`).join('')}</div>
+    <div class="mwhy"><span class="mwk">${q.label || 'Answer · ' + 'abcde'[q.a]}</span><p>${q.why}</p></div>
   </div>`;
   const opts = [...el.querySelectorAll('.mopt')];
   let picked = null;
   const reveal = on => {
     el.querySelector('.mcq').classList.toggle('revealed', on);
-    opts.forEach((b, i) => { b.classList.toggle('right', on && i === q.a); b.classList.toggle('wrong', on && i === picked && i !== q.a); });
+    const keys = [].concat(q.a);
+    opts.forEach((b, i) => { b.classList.toggle('right', on && keys.includes(i)); b.classList.toggle('wrong', on && i === picked && !keys.includes(i)); });
   };
   opts.forEach(b => b.addEventListener('click', () => {
     picked = +b.dataset.i;

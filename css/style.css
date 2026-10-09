@@ -48,6 +48,7 @@
   --inhib: #ff453a;
   --activ: #30d158;
 
+  --grad-0: linear-gradient(100deg, #7cc4ff 0%, #2f6bff 100%);
   --grad-1: linear-gradient(100deg, #64d2ff 0%, #30d158 100%);
   --grad-2: linear-gradient(100deg, #ffd60a 0%, #ff9f0a 50%, #ff6482 100%);
   --grad-3: linear-gradient(100deg, #d070ff 0%, #7d7aff 50%, #2d9bff 100%);
@@ -161,15 +162,16 @@ b, strong { font-weight: 650; color: #fff; }
 i { font-style: italic; }
 .dim { color: var(--text-3); }
 
-.grad-1, .grad-2, .grad-3, .grad-atp {
+.grad-0, .grad-1, .grad-2, .grad-3, .grad-atp {
   background-clip: text; -webkit-background-clip: text;
   color: transparent; -webkit-text-fill-color: transparent;
 }
+.grad-0 { background-image: var(--grad-0); }
 .grad-1 { background-image: var(--grad-1); }
 .grad-2 { background-image: var(--grad-2); }
 .grad-3 { background-image: var(--grad-3); }
 .grad-atp { background-image: var(--grad-atp); }
-.eyebrow.grad-1, .eyebrow.grad-2, .eyebrow.grad-3 { display: inline-block; }
+.eyebrow.grad-0, .eyebrow.grad-1, .eyebrow.grad-2, .eyebrow.grad-3 { display: inline-block; }
 
 .t-nadh { color: var(--nadh); font-weight: 650; }
 .t-fadh { color: var(--fadh); font-weight: 650; }
@@ -200,6 +202,7 @@ i { font-style: italic; }
   background: var(--text-4);
   transition: background 0.4s, box-shadow 0.4s;
 }
+.s0 .bullets li.in:not(.past)::before { background: #3d8bff; box-shadow: 0 0 18px #3d8bffaa; }
 .s1 .bullets li.in:not(.past)::before { background: #30d158; box-shadow: 0 0 18px #30d15899; }
 .s2 .bullets li.in:not(.past)::before { background: #ff9f0a; box-shadow: 0 0 18px #ff9f0a99; }
 .s3 .bullets li.in:not(.past)::before { background: #7d7aff; box-shadow: 0 0 18px #7d7aff99; }
@@ -304,6 +307,12 @@ i { font-style: italic; }
 .chapter p { font-size: 32px; color: var(--text-3); margin: 14px 0 0; font-weight: 500; }
 .chapter .ch-icon { position: absolute; inset: 90px 40px 200px; display: grid; place-items: center; }
 .chapter .ch-icon svg { width: 100%; height: 100%; overflow: visible; }
+.chapter.c0 h3 { background: var(--grad-0); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
+.chapters.four { grid-template-columns: repeat(4, 1fr); gap: 28px; }
+.chapters.four .chapter { padding: 40px 38px; }
+.chapters.four .chapter h3 { font-size: 50px; }
+.chapters.four .chapter p { font-size: 28px; }
+.chapters.four .ch-num { left: 38px; } .chapters.four .ch-tag { right: 38px; }
 .chapter.c1 h3 { background: var(--grad-1); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
 .chapter.c2 h3 { background: var(--grad-2); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
 .chapter.c3 h3 { background: var(--grad-3); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; }
@@ -336,7 +345,7 @@ i { font-style: italic; }
 .mnemonic b { font-weight: 800; color: #fff; }
 
 /* ── references ─────────────────────────────────────── */
-.refs { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.refs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .ref {
   padding: 36px 40px; border-radius: var(--r-md);
   background: var(--surface-2); border: 1px solid var(--hairline);
@@ -424,6 +433,7 @@ body.idle .counter { opacity: 0.35; }
 .ov-card.cur { border-color: #fff; }
 .ov-card .n { font-size: clamp(11px, 0.85vw, 16px); color: var(--text-4); font-weight: 650; }
 .ov-card .t { font-size: clamp(14px, 1.15vw, 22px); font-weight: 650; letter-spacing: -0.01em; }
+.ov-card.sec0 { box-shadow: inset 4px 0 0 #3d8bff; }
 .ov-card.sec1 { box-shadow: inset 4px 0 0 #30d158; }
 .ov-card.sec2 { box-shadow: inset 4px 0 0 #ff9f0a; }
 .ov-card.sec3 { box-shadow: inset 4px 0 0 #7d7aff; }

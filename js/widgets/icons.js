@@ -1,5 +1,16 @@
 // Animated line-art icons for the roadmap cards.
 const ICONS = {
+  split: `
+  <svg viewBox="0 0 400 220">
+    <defs><linearGradient id="gi0" x1="0" x2="1"><stop offset="0" stop-color="#7cc4ff"/><stop offset="1" stop-color="#2f6bff"/></linearGradient></defs>
+    <g class="sp-l"><polygon points="200,40 145,72 145,136 200,168" fill="none" stroke="url(#gi0)" stroke-width="6" stroke-linejoin="round"/>
+      ${[[200, 40], [145, 72], [145, 136]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="9" fill="#1c1c20" stroke="#ffffffcc" stroke-width="3"/>`).join('')}</g>
+    <g class="sp-r"><polygon points="200,40 255,72 255,136 200,168" fill="none" stroke="url(#gi0)" stroke-width="6" stroke-linejoin="round"/>
+      ${[[255, 72], [255, 136], [200, 168]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="9" fill="#1c1c20" stroke="#ffffffcc" stroke-width="3"/>`).join('')}</g>
+    <text x="200" y="112" text-anchor="middle" fill="#fff" font-size="26" font-weight="700" font-family="Inter">6C</text>
+    <text x="60" y="206" fill="#98989f" font-size="20" font-weight="600" font-family="Inter">glucose</text>
+    <text x="340" y="206" fill="#98989f" font-size="20" font-weight="600" font-family="Inter" text-anchor="end">2 × pyruvate</text>
+  </svg>`,
   bridge: `
   <svg viewBox="0 0 400 220">
     <defs><linearGradient id="gi1" x1="0" x2="1"><stop offset="0" stop-color="#64d2ff"/><stop offset="1" stop-color="#30d158"/></linearGradient></defs>
@@ -45,7 +56,7 @@ export function drawChapterIcons() {
   document.querySelectorAll('.ch-icon[data-icon]').forEach(el => { el.innerHTML = ICONS[el.dataset.icon] || ''; });
   if (!document.getElementById('kf-spin')) {
     const s = document.createElement('style'); s.id = 'kf-spin';
-    s.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+    s.textContent = '@keyframes spin{to{transform:rotate(360deg)}} .sp-l{animation:spl 3.4s ease-in-out infinite} .sp-r{animation:spr 3.4s ease-in-out infinite} @keyframes spl{0%,35%{transform:none}55%,85%{transform:translateX(-34px)}100%{transform:none}} @keyframes spr{0%,35%{transform:none}55%,85%{transform:translateX(34px)}100%{transform:none}}';
     document.head.appendChild(s);
   }
 }

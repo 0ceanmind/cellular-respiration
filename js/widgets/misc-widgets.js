@@ -3,6 +3,8 @@ import { register } from './registry.js';
 
 register('recap', (el) => {
   const tiles = [
+    ['2 + 2', 'Glycolysis per glucose', 'net ATP + NADH · cytosol', 'grad-0'],
+    ['1 · 2 · 7', 'Glycolysis control steps', 'HK/GK · PFK-1 · pyruvate kinase', 'grad-0'],
     ['3 + 5', 'PDH complex', 'enzymes + coenzymes · TLCFN', 'grad-1'],
     ['8 · 3', 'TCA cycle', 'steps · control points', 'grad-2'],
     ['10', 'ATP per acetyl CoA', '3 NADH · 1 FADH₂ · 1 GTP', 'grad-2'],
@@ -24,7 +26,7 @@ register('quizcta', (el, app) => {
     <div class="qtext">
       <p class="eyebrow">The professor's question bank</p>
       <h1 class="qtitle">Test yourself.</h1>
-      <p class="qsub"><b class="qcount">—</b> exam-style questions on PDH, the TCA cycle, the ETC and oxidative phosphorylation · instant feedback · explanations</p>
+      <p class="qsub"><b class="qcount">—</b> exam-style questions on glycolysis, PDH, the TCA cycle, the ETC and oxidative phosphorylation · instant feedback · explanations</p>
       <div class="qbtns">
         <button class="btn qstart">Start the quiz</button>
         <span class="qhint">or press <kbd>Q</kbd> any time</span>

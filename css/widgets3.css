@@ -72,11 +72,11 @@
 .labnote { margin: 0; font-size: 21px; color: var(--text-4); }
 
 /* recap */
-.recap { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: 1fr; gap: 28px; height: 100%; }
+.recap { display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 24px; height: 100%; }
 .rtile { border-radius: 34px; padding: 36px 42px; background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.02)); border: 1px solid var(--hairline); display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; opacity: 0; transform: translateY(30px) scale(.97); }
 .rtile.in { animation: tileIn .9s var(--ease) forwards; animation-delay: calc(.25s + var(--d)); }
 @keyframes tileIn { to { opacity: 1; transform: none; } }
-.rbig { font-size: 104px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; margin-bottom: 10px; }
+.rbig { font-size: 92px; font-weight: 800; letter-spacing: -0.05em; line-height: 1; margin-bottom: 10px; }
 .rtile b { font-size: 36px; letter-spacing: -0.02em; }
 .rs { font-size: 26px; color: var(--text-3); font-weight: 550; }
 

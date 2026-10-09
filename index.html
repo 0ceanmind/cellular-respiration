@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cellular Respiration — PDH · TCA · Oxidative Phosphorylation</title>
-<meta name="description" content="Interactive lecture: pyruvate dehydrogenase complex, TCA cycle, electron transport chain and oxidative phosphorylation.">
+<title>Cellular Respiration — Glycolysis · PDH · TCA · Oxidative Phosphorylation</title>
+<meta name="description" content="Interactive lecture: glycolysis, pyruvate dehydrogenase complex, TCA cycle, electron transport chain and oxidative phosphorylation.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="css/widgets.css">
 <link rel="stylesheet" href="css/widgets2.css">
 <link rel="stylesheet" href="css/widgets3.css">
+<link rel="stylesheet" href="css/widgets4.css">
 <script type="importmap">
 { "imports": {
   "three": "./vendor/three/three.module.js",
@@ -32,34 +33,41 @@
   <div class="hero">
     <p class="eyebrow rv">Biochemistry · College of Medicine &amp; Health Sciences</p>
     <h1 class="hero-title rv">Cellular<br>Respiration</h1>
-    <p class="hero-sub rv">The bridge. The cycle. <span class="grad-3">The power plant.</span></p>
-    <div class="tags rv"><span>PDH complex</span><span>TCA cycle</span><span>ETC &amp; oxidative phosphorylation</span></div>
+    <p class="hero-sub rv">The split. The bridge. The cycle. <span class="grad-3">The power plant.</span></p>
+    <div class="tags rv"><span>Glycolysis</span><span>PDH complex</span><span>TCA cycle</span><span>ETC &amp; oxidative phosphorylation</span></div>
   </div>
   <p class="corner-hint rv">Press <kbd>→</kbd> to begin · <kbd>?</kbd> for shortcuts</p>
 </section>
 
 <section class="slide" data-key="roadmap" data-title="Roadmap">
   <header class="head">
-    <p class="eyebrow rv">Three chapters · one goal</p>
+    <p class="eyebrow rv">Four chapters · one goal</p>
     <h2 class="rv">From glucose to <span class="grad-atp">ATP</span></h2>
   </header>
-  <div class="chapters">
-    <article class="chapter c1 rv" data-tip="obj-1" data-goto="ch1">
+  <div class="chapters four">
+    <article class="chapter c0 rv" data-tip="obj-0" data-goto="ch0">
       <span class="ch-num">01</span>
+      <div class="ch-icon" data-icon="split"></div>
+      <h3>The Split</h3>
+      <p>Glycolysis</p>
+      <span class="ch-tag">L.11</span>
+    </article>
+    <article class="chapter c1 rv" data-tip="obj-1" data-goto="ch1">
+      <span class="ch-num">02</span>
       <div class="ch-icon" data-icon="bridge"></div>
       <h3>The Bridge</h3>
       <p>PDH complex</p>
       <span class="ch-tag">L.12</span>
     </article>
     <article class="chapter c2 rv" data-tip="obj-2" data-goto="ch2">
-      <span class="ch-num">02</span>
+      <span class="ch-num">03</span>
       <div class="ch-icon" data-icon="cycle"></div>
       <h3>The Cycle</h3>
       <p>TCA cycle</p>
       <span class="ch-tag">L.13</span>
     </article>
     <article class="chapter c3 rv" data-tip="obj-3" data-goto="ch3">
-      <span class="ch-num">03</span>
+      <span class="ch-num">04</span>
       <div class="ch-icon" data-icon="plant"></div>
       <h3>The Power Plant</h3>
       <p>ETC &amp; oxidative phosphorylation</p>
@@ -77,11 +85,177 @@
   <div class="widget rv" data-widget="journey"></div>
 </section>
 
-<!-- ═══════════════════════════ 01 · THE BRIDGE ═══════════════════════════ -->
+<!-- ═══════════════════════════ 01 · THE SPLIT (GLYCOLYSIS) ═══════════════════════════ -->
 
-<section class="slide layout-divider s1" data-key="ch1" data-section="1" data-scene="bridge" data-view="right" data-title="01 · The Bridge">
+<section class="slide layout-divider s0" data-key="ch0" data-section="0" data-scene="glucose" data-view="right" data-title="01 · The Split">
   <div class="divider">
-    <span class="div-num grad-1 rv">01</span>
+    <span class="div-num grad-0 rv">01</span>
+    <h1 class="rv">The Split</h1>
+    <p class="rv">Glycolysis</p>
+  </div>
+  <p class="scene-hint rv">Glucose (6C) → 2 pyruvate (3C) · drag to rotate</p>
+</section>
+
+<section class="slide layout-split s0" data-key="g-background" data-section="0" data-scene="glucose" data-view="right" data-steps="3" data-title="What is glycolysis?">
+  <div class="col-text">
+    <p class="eyebrow grad-0 rv">Background · L.11.1</p>
+    <h2 class="rv">Glucose,<br>split in two</h2>
+    <ul class="bullets">
+      <li data-build="1">Oxidative breakdown: glucose → <b>2 pyruvate</b></li>
+      <li data-build="2" data-tip="g-aerobic">Step 1 of <b>aerobic respiration</b></li>
+      <li data-build="3">Location: the <b>cytosol</b></li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide s0" data-key="g-transport" data-section="0" data-steps="4" data-title="Getting glucose in">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-0 rv">Transport · L.11.1</p>
+      <h2 class="rv">Getting glucose in</h2>
+    </div>
+  </header>
+  <div class="widget rv" data-widget="gtransport"></div>
+</section>
+
+<section class="slide s0" data-key="g-carriers" data-section="0" data-steps="2" data-title="GLUT vs SGLT">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Two kinds of door</p>
+    <h2 class="rv">GLUT vs SGLT</h2>
+  </header>
+  <div class="widget rv" data-widget="glutsglt"></div>
+</section>
+
+<section class="slide s0" data-key="g-gluts" data-section="0" data-steps="4" data-title="The GLUT family">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-0 rv">Affinity decides who eats first</p>
+      <h2 class="rv">The GLUT family</h2>
+    </div>
+  </header>
+  <div class="widget rv" data-widget="gluts"></div>
+</section>
+
+<section class="slide layout-split s0" data-key="g-steps" data-section="0" data-scene="glyline" data-view="right-wide" data-steps="8" data-title="Seven steps">
+  <div class="col-text narrow">
+    <p class="eyebrow grad-0 rv">Steps · L.11.2</p>
+    <h2 class="rv">Seven steps<br>to pyruvate</h2>
+    <div class="widget" data-widget="glycaption"></div>
+  </div>
+  <p class="scene-hint rv">Drag to rotate · hover a station</p>
+</section>
+
+<section class="slide s0" data-key="g-control" data-section="0" data-steps="2" data-title="Control enzymes &amp; poisons">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Control enzymes · poisons</p>
+    <h2 class="rv">Who runs the line</h2>
+  </header>
+  <div class="widget rv" data-widget="enzline"></div>
+</section>
+
+<section class="slide s0" data-key="g-hkgk" data-section="0" data-steps="2" data-title="Hexokinase vs glucokinase">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">L.11.5 · Blood glucose</p>
+    <h2 class="rv">Hexokinase vs glucokinase</h2>
+  </header>
+  <div class="widget rv" data-widget="hkgk"></div>
+</section>
+
+<section class="slide s0" data-key="g-slp" data-section="0" data-steps="3" data-title="Two ways to make ATP">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">L.11.4 · Energetics</p>
+    <h2 class="rv">Two ways to make ATP</h2>
+  </header>
+  <div class="widget rv" data-widget="slp"></div>
+</section>
+
+<section class="slide s0" data-key="g-q-net" data-section="0" data-steps="1" data-title="Question: net energy">
+  <div class="widget rv" data-widget="mcq" data-q="glynet"></div>
+</section>
+
+<section class="slide layout-split wide-visual s0" data-key="g-anaerobic" data-section="0" data-steps="3" data-title="Anaerobic glycolysis">
+  <div class="col-text">
+    <p class="eyebrow grad-0 rv">L.11.3 · Fate of cytosolic NADH</p>
+    <h2 class="rv">No oxygen?<br>Make lactate.</h2>
+    <ul class="bullets small">
+      <li data-build="1">Pyruvate → <b>lactate</b> (LDH)</li>
+      <li data-build="2" data-tip="nad-recycle">Regenerates <b>NAD⁺</b> → glycolysis continues</li>
+      <li data-build="3" data-tip="anaerobic-sites">RBCs · avascular tissues · sprinting muscle</li>
+    </ul>
+  </div>
+  <div class="col-visual widget rv" data-widget="nadcycle"></div>
+</section>
+
+<section class="slide s0" data-key="g-lactic" data-section="0" data-steps="2" data-title="Lactic acidosis">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Clinical</p>
+    <h2 class="rv">Lactic acidosis</h2>
+  </header>
+  <div class="widget rv" data-widget="lactic"></div>
+</section>
+
+<section class="slide s0" data-key="g-rbc" data-section="0" data-steps="3" data-title="Glycolysis in RBCs">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Red blood cells</p>
+    <h2 class="rv">Glycolysis in red cells</h2>
+  </header>
+  <div class="widget rv" data-widget="rbcpath"></div>
+</section>
+
+<section class="slide s0" data-key="g-reg" data-section="0" data-steps="3" data-title="Regulation of glycolysis">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Regulation · L.11.2</p>
+    <h2 class="rv">Three levels of control</h2>
+  </header>
+  <div class="widget rv" data-widget="glyreg"></div>
+</section>
+
+<section class="slide s0" data-key="g-arsenate" data-section="0" data-steps="2" data-title="Arsenate poisoning">
+  <header class="head">
+    <p class="eyebrow grad-0 rv">Critical thinking</p>
+    <h2 class="rv">Arsenate poisoning</h2>
+  </header>
+  <div class="widget rv" data-widget="arsenate"></div>
+</section>
+
+<section class="slide layout-split s0" data-key="g-pkd" data-section="0" data-scene="rbc" data-view="right" data-steps="4" data-title="Pyruvate kinase deficiency">
+  <div class="col-text">
+    <p class="eyebrow grad-0 rv">Clinical · L.11.6</p>
+    <h2 class="rv">Pyruvate kinase<br>deficiency</h2>
+    <ul class="bullets small">
+      <li data-build="1" data-tip="pkd-genetic">2nd most common genetic hemolytic anemia</li>
+      <li data-build="2">ATP ↓ → Na<sup>+</sup>/K<sup>+</sup> pump fails</li>
+      <li data-build="3">K<sup>+</sup> leaks out → cells shrink, <b>spiculate</b></li>
+      <li data-build="4" data-tip="pkd-tolerate">Spleen destroys them · <b>2,3-BPG ↑</b></li>
+    </ul>
+    <div class="seg rv" data-control="pk">
+      <button class="on" data-val="off">Normal RBC</button><button data-val="on">PK deficient</button>
+    </div>
+  </div>
+  <p class="scene-hint rv">Drag to rotate · hover the cell</p>
+</section>
+
+<section class="slide s0" data-key="g-case" data-section="0" data-steps="5" data-title="Case: spiculated cells">
+  <div class="widget rv" data-widget="pkcase"></div>
+</section>
+
+<section class="slide layout-split wide-visual s0" data-key="g-fluoride" data-section="0" data-steps="2" data-title="The fluoride tube">
+  <div class="col-text">
+    <p class="eyebrow grad-0 rv">Critical thinking</p>
+    <h2 class="rv">Why a fluoride tube?</h2>
+    <ul class="bullets small">
+      <li data-build="1">Blood cells keep <b>eating glucose</b> in the tube</li>
+      <li data-build="2" data-tip="fluoride">Fluoride blocks <b>enolase</b> → glycolysis stops</li>
+    </ul>
+  </div>
+  <div class="col-visual widget rv" data-widget="fluoride"></div>
+</section>
+
+<!-- ═══════════════════════════ 02 · THE BRIDGE ═══════════════════════════ -->
+
+<section class="slide layout-divider s1" data-key="ch1" data-section="1" data-scene="bridge" data-view="right" data-title="02 · The Bridge">
+  <div class="divider">
+    <span class="div-num grad-1 rv">02</span>
     <h1 class="rv">The Bridge</h1>
     <p class="rv">Pyruvate dehydrogenase complex</p>
   </div>
@@ -176,11 +350,11 @@
   <div class="widget rv" data-widget="thiaminewhy"></div>
 </section>
 
-<!-- ═══════════════════════════ 02 · THE CYCLE ═══════════════════════════ -->
+<!-- ═══════════════════════════ 03 · THE CYCLE ═══════════════════════════ -->
 
-<section class="slide layout-divider s2" data-key="ch2" data-section="2" data-scene="citrate" data-view="right" data-title="02 · The Cycle">
+<section class="slide layout-divider s2" data-key="ch2" data-section="2" data-scene="citrate" data-view="right" data-title="03 · The Cycle">
   <div class="divider">
-    <span class="div-num grad-2 rv">02</span>
+    <span class="div-num grad-2 rv">03</span>
     <h1 class="rv">The Cycle</h1>
     <p class="rv">Citric acid cycle · TCA cycle · Krebs cycle</p>
   </div>
@@ -265,11 +439,11 @@
   <div class="widget rv" data-widget="mcq" data-q="infant"></div>
 </section>
 
-<!-- ═══════════════════════════ 03 · THE POWER PLANT ═══════════════════════════ -->
+<!-- ═══════════════════════════ 04 · THE POWER PLANT ═══════════════════════════ -->
 
-<section class="slide layout-divider s3" data-key="ch3" data-section="3" data-scene="mito" data-view="right" data-title="03 · The Power Plant">
+<section class="slide layout-divider s3" data-key="ch3" data-section="3" data-scene="mito" data-view="right" data-title="04 · The Power Plant">
   <div class="divider">
-    <span class="div-num grad-3 rv">03</span>
+    <span class="div-num grad-3 rv">04</span>
     <h1 class="rv">The Power Plant</h1>
     <p class="rv">Electron transport chain &amp; oxidative phosphorylation</p>
   </div>
@@ -441,12 +615,17 @@
       <span class="ref-k">Textbook</span>
       <h3>Lippincott Illustrated Reviews: Biochemistry</h3>
       <p>9th ed. · Abali, Cline, Franklin, Viselli · Wolters Kluwer</p>
-      <p class="dim" data-ref="lippincott">Bioenergetics &amp; oxidative phosphorylation (cited in L.10: Ch. 5, pp. 85–94) · Tricarboxylic acid cycle &amp; pyruvate dehydrogenase complex</p>
+      <p class="dim" data-ref="lippincott">Glycolysis · Bioenergetics &amp; oxidative phosphorylation (cited in L.10: Ch. 5, pp. 85–94) · Tricarboxylic acid cycle &amp; pyruvate dehydrogenase complex</p>
     </article>
     <article class="ref rv">
       <span class="ref-k">Lecture · L.10</span>
       <h3>Oxidative phosphorylation &amp; ETC</h3>
       <p>Dr. D. Vijaya Marakala, Associate Professor · COMHS, National University of Science &amp; Technology</p>
+    </article>
+    <article class="ref rv">
+      <span class="ref-k">Lecture · L.11</span>
+      <h3>Glycolysis</h3>
+      <p>Transport, steps, regulation, anaerobic glycolysis &amp; PK deficiency · COMHS, National University of Science &amp; Technology</p>
     </article>
     <article class="ref rv">
       <span class="ref-k">Lecture · L.12 – L.13</span>
