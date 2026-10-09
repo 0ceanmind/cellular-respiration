@@ -14,7 +14,7 @@ export function create(ctx) {
   const root = new THREE.Group(); scene.add(root);
 
   // ring
-  const ringMat = new THREE.MeshPhysicalMaterial({ color: 0x24242a, roughness: 0.35, metalness: 0.0, clearcoat: 0.6, envMap: ctx.envMap, envMapIntensity: 0.45, emissive: 0xff9f0a, emissiveIntensity: 0.05 });
+  const ringMat = new THREE.MeshPhysicalMaterial({ color: 0x3a3a44, roughness: 0.3, metalness: 0.0, clearcoat: 0.8, envMap: ctx.envMap, envMapIntensity: 0.5, emissive: 0xffffff, emissiveIntensity: 0.0 });
   const ring = new THREE.Mesh(new THREE.TorusGeometry(R, 0.11, 24, 220), ringMat);
   ring.rotation.x = Math.PI / 2;
   root.add(ring);
@@ -85,7 +85,17 @@ export function create(ctx) {
   const TXT = { nadh: 'NADH', fadh: 'FADH<sub>2</sub>', gtp: 'GTP' };
   const parkSlot = { nadh: [-0.9, 0.2], fadh: [0.45, 0.2], gtp: [1.0, 0.2] };
 
-  const centreLbl = label('', 'sm muted'); centreLbl.position.set(0, 0, 1.0); root.add(centreLbl);
+  // one counter label per product type (avoids a pile of overlapping labels)
+  const kindL = {};
+  for (const k of ['nadh', 'fadh', 'gtp']) { const l = label('', 'sm'); l.element.classList.add('hidden'); root.add(l); kindL[k] = l; }
+  function updKind() {
+    for (const k in kindL) {
+      const n = tokens.filter(t => t.kind === k).length, l = kindL[k], [px, pz] = parkSlot[k];
+      l.element.classList.toggle('hidden', n === 0);
+      l.element.innerHTML = TXT[k] + (n > 1 ? ` ×${n}` : '');
+      l.position.set(px + (k === 'nadh' ? (n - 1) * 0.21 : 0), 0.52, pz - 0.1);
+    }
+  }
 
   function spawnToken(kind, from, order, instant) {
     const m = new THREE.Mesh(tokenGeo, glowMat(COL[kind], 2.4));
@@ -94,13 +104,13 @@ export function create(ctx) {
     const n = tokens.filter(t => t.kind === kind).length;
     const [px, pz] = parkSlot[kind];
     const tx = px + (kind === 'nadh' ? n * 0.42 : 0), tz = pz - 0.1;
-    const lb = label(TXT[kind], 'sm'); lb.position.set(0, 0.38, 0); m.add(lb);
     if (instant) m.position.set(tx, 0.1, tz);
     else {
       gsap.fromTo(m.scale, { x: 0.01, y: 0.01, z: 0.01 }, { x: 1, y: 1, z: 1, duration: 0.5, delay: order * 0.25 });
       gsap.to(m.position, { x: tx, y: 0.1, z: tz, duration: 1.2, delay: 0.35 + order * 0.25, ease: 'power3.inOut' });
     }
-    tokens.push({ kind, m, lb });
+    tokens.push({ kind, m });
+    updKind();
   }
   function spawnCO2(from) {
     // remove an oxaloacetate-derived carbon
@@ -137,6 +147,7 @@ export function create(ctx) {
     carbons.splice(0).forEach(c => cluster.remove(c));
     tokens.splice(0).forEach(t => fx.remove(t.m));
     fx.clear();
+    updKind();
     for (let i = 0; i < 4; i++) mk(false);
     layout(true);
     cluster.position.copy(pos(ang(0))).setY(0.55);
@@ -245,7 +256,6 @@ export function create(ctx) {
       });
       nodes.forEach((n, i) => { n.userData.orb.material.emissive.setHex(0xffb340); n.userData.orb.material.emissiveIntensity = active >= 1 && active <= 8 && i === active % 8 ? 0.6 + 0.2 * Math.sin(t * 4) : 0.0; });
       cluster.rotation.y = Math.sin(t * 0.8) * 0.3;
-      ringMat.emissiveIntensity = 0.06 + (active >= 1 && active <= 8 ? 0.06 : 0);
     },
   };
 }

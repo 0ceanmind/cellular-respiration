@@ -448,7 +448,7 @@ body.idle .counter { opacity: 0.35; }
 
 /* ── 3D labels (CSS2D) ──────────────────────────────── */
 .lbl {
-  font: 600 26px/1.1 "Inter", sans-serif; letter-spacing: -0.01em;
+  font: 600 28px/1.1 "Inter", sans-serif; letter-spacing: -0.01em;
   color: var(--text); white-space: nowrap;
   padding: 8px 16px; border-radius: 999px;
   background: rgba(16, 16, 20, 0.62);
@@ -457,8 +457,8 @@ body.idle .counter { opacity: 0.35; }
   transition: opacity 0.5s var(--ease), transform 0.5s var(--ease);
 }
 .lbl.plain { background: none; border: 0; backdrop-filter: none; padding: 0; text-shadow: 0 2px 14px #000; }
-.lbl.big { font-size: 34px; font-weight: 700; }
-.lbl.sm { font-size: 22px; }
+.lbl.big { font-size: 36px; font-weight: 700; }
+.lbl.sm { font-size: 24px; }
 .lbl.muted { color: var(--text-3); }
 .lbl.hidden { opacity: 0 !important; }
 .lbl .sub { display: block; font-size: 0.72em; color: var(--text-3); font-weight: 550; margin-top: 4px; }

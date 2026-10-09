@@ -133,7 +133,7 @@ export function create(ctx) {
   addL('p3', '4 H<sup>+</sup>', 'sm', [X.III - 0.9, 2.25, 0.3]);
   addL('p4', '2 H<sup>+</sup>', 'sm', [X.IV + 0.75, 2.25, 0.3]);
   addL('phTop', '↓ pH · positive', 'sm', [3.6, 2.85, -0.5]);
-  addL('phBot', '↑ pH · negative', 'sm', [-2.2, -3.4, -0.5]);
+  addL('phBot', '↑ pH · negative', 'sm', [0.4, -3.35, -0.5]);
   addL('atp', 'ATP', 'big', [X.V + 1.2, -2.9, 0.4]);
   addL('heat', 'Heat', 'big', [3.0, -1.85, 0.9]);
   addL('agent', '', 'sm', [0, 0, 0]);
