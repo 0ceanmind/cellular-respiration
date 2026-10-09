@@ -1,0 +1,2416 @@
+{
+  "meta": {
+    "title": "TCA · PDH · ETC & Oxidative Phosphorylation — Question Bank",
+    "generated": "2026-10-09",
+    "convention": "NADH = 2.5 ATP, FADH2 = 1.5 ATP (lecture L.10); 4 H+ = 1 ATP",
+    "pastPaperSearch": {
+      "found": false,
+      "summary": "No genuine National University (NU, Oman) or Oman Medical College past-paper MCQs on the TCA cycle, PDH, thiamine or ETC/oxidative phosphorylation were found after about 30 English and Arabic searches covering the open web, Studocu, Quizlet, Scribd, Course Hero, Docsity, SlideShare, Telegram mirrors and Sultan Qaboos University (SQU) queries; no SQU biochemistry papers surfaced either. The only Oman-linked item was an anonymous 2014/15 student upload on Studocu filed under 'Oman Medical College – Biochemistry (MPRC0205)': an essay-style SAQ/LAQ topic list (not MCQs, format typical of generic MBBS question banks, not verifiable as an official OMC/NU paper) whose Biological Oxidation, TCA and Vitamins prompts inspired 8 MCQs here, labelled 'Adapted from OMC-tagged Studocu question bank'. Other documents in that Studocu course were generic (a Sanfoundry-style gluconeogenesis quiz, Lippincott review MCQs). All remaining questions are original, written to the L.10/L.12/L.13 lecture content and Lippincott 9th ed., plus the lecturer's own two MCQs and two open questions.",
+      "urlsChecked": [
+        "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188",
+        "https://www.studocu.com/row/institution/oman-medical-college/7528",
+        "https://www.studocu.com/row/document/oman-medical-college/biochemistry/carbohydrate-metabolism-questions/17414299",
+        "https://www.studocu.com/row/document/oman-medical-college/biochemistry/lippincott-illustrated-mcq/38037305",
+        "https://www.studocu.com/row/document/oman-medical-college/biochemistry/2204-fluid-electrolyte-nclex/18764194",
+        "https://www.studocu.com/row/institution/national-university-of-science-and-technology/11290",
+        "https://en.wikipedia.org/wiki/National_University_of_Science_and_Technology_(Oman)",
+        "https://en.wikipedia.org/wiki/Oman_Medical_College",
+        "https://omanmedical.academia.edu",
+        "https://www.scribd.com/document/653377845/List-of-Colleges",
+        "https://www.scribd.com/document/898121575/OMSB-Selection-Examination-Manual",
+        "https://omsb.gov.om/ContentFiles/OMSB Selection ExaminationYYYY01DD1201SS.pdf",
+        "https://www.docsity.com/en/docs/oman-medical-specialty-board-physiotherapy-exam/13840207/",
+        "https://www.mastersportal.com/studies/265845/biochemistry-and-molecular-biology.html",
+        "https://t.me/s/pharma2ST2021/9483",
+        "https://www.slideshare.net/slideshow/pdh-complex-tca-cycle-krebs-cycle-citric-acid-cycle/275700389",
+        "https://www.slideshare.net/slideshow/pyruvate-dehydrogenase-and-tricarboxylic-acid-cycle-pdh-and-tca/241071781",
+        "https://app.geekymedics.com/learn/quiz/priyabrana-biochemistry-of-the-tca-cycle-and-electron-transport-chain-quiz",
+        "https://quizlet.com/789209748/all-practice-exam-questions-medical-biochemistry-flash-cards/",
+        "https://pastpapers.ku.ac.ke/handle/123456789/5240?show=full",
+        "https://www.topuniversities.com/universities/national-university-science-technology-oman"
+      ]
+    },
+    "sources": [
+      "Lecture L.10 Oxidative phosphorylation & ETC — Dr. D. Vijaya Marakala, COMHS, NU",
+      "Lecture L.12–L.13 PDH complex & TCA cycle — COMHS, NU",
+      "Lippincott Illustrated Reviews: Biochemistry, 9th ed. (Abali, Cline, Franklin, Viselli), Wolters Kluwer"
+    ]
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "In which cellular compartment is the pyruvate dehydrogenase (PDH) complex located?",
+      "options": [
+        "Cytosol",
+        "Intermembrane space",
+        "Outer mitochondrial membrane",
+        "Smooth endoplasmic reticulum",
+        "Mitochondrial matrix"
+      ],
+      "answer": 4,
+      "explanation": "The PDH complex is a mitochondrial matrix enzyme, so pyruvate made by cytosolic glycolysis must first be transported into the matrix. The cytosol is the site of glycolysis, not of pyruvate oxidation.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q002",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which equation correctly summarizes the overall reaction catalysed by the PDH complex?",
+      "options": [
+        "Pyruvate + CoA + NAD⁺ → acetyl CoA + CO₂ + NADH + H⁺",
+        "Pyruvate + CO₂ + ATP → oxaloacetate + ADP + Pi",
+        "Pyruvate + NADH + H⁺ → lactate + NAD⁺",
+        "Pyruvate + glutamate → alanine + α-ketoglutarate",
+        "Pyruvate + CoA + FAD → acetyl CoA + CO₂ + FADH₂"
+      ],
+      "answer": 0,
+      "explanation": "PDH oxidatively decarboxylates pyruvate (3C) to acetyl CoA (2C), releasing CO₂ and reducing NAD⁺ to NADH. FAD is a bound carrier on E3 that is re-oxidized by NAD⁺, so the net reduced product is NADH, not FADH₂; the other equations are the pyruvate carboxylase, LDH and ALT reactions.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q003",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The conversion of pyruvate to acetyl CoA by the PDH complex is best classified as:",
+      "options": [
+        "Substrate-level phosphorylation",
+        "Carboxylation",
+        "Oxidative decarboxylation",
+        "Transamination",
+        "Hydration"
+      ],
+      "answer": 2,
+      "explanation": "Pyruvate loses one carbon as CO₂ (decarboxylation) while the remaining two-carbon unit is oxidized, with the electrons passed to NAD⁺. Carboxylation (adding CO₂) is the pyruvate carboxylase reaction, the opposite process.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q004",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The five coenzymes of the PDH complex are remembered by the mnemonic “Tender Loving Care For Nobody”. Which list is correct?",
+      "options": [
+        "TPP, biotin, CoA, FAD, NAD⁺",
+        "TPP, lipoic acid, CoA, FAD, NAD⁺",
+        "PLP, lipoic acid, CoA, FMN, NADP⁺",
+        "TPP, lipoic acid, biotin, FMN, NAD⁺",
+        "THF, lipoic acid, CoA, FAD, NADP⁺"
+      ],
+      "answer": 1,
+      "explanation": "Tender = thiamine pyrophosphate, Loving = lipoic acid, Care = coenzyme A, For = FAD, Nobody = NAD⁺. Biotin belongs to carboxylases such as pyruvate carboxylase, not to PDH.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q005",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 40-year-old man with severe malnutrition has combined deficiencies of thiamine, riboflavin, niacin and pantothenic acid. Which coenzyme of his PDH complex would NOT be directly affected by these vitamin deficiencies?",
+      "options": [
+        "Lipoic acid",
+        "Thiamine pyrophosphate",
+        "FAD",
+        "NAD⁺",
+        "Coenzyme A"
+      ],
+      "answer": 0,
+      "explanation": "Lipoic acid is synthesized in the body and is not derived from a B vitamin. TPP comes from thiamine (B1), FAD from riboflavin (B2), NAD⁺ from niacin (B3) and CoA from pantothenic acid (B5).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q006",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Thiamine pyrophosphate (TPP) is the coenzyme of which component of the PDH complex?",
+      "options": [
+        "E2 – dihydrolipoyl transacetylase",
+        "E3 – dihydrolipoyl dehydrogenase",
+        "E1 – pyruvate decarboxylase",
+        "PDH kinase",
+        "PDH phosphatase"
+      ],
+      "answer": 2,
+      "explanation": "E1 (pyruvate decarboxylase) uses TPP to decarboxylate pyruvate. E2 uses lipoic acid and CoA to form acetyl CoA, and E3 uses FAD and NAD⁺ to regenerate oxidized lipoamide.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q007",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which pair of coenzymes is used by E3 (dihydrolipoyl dehydrogenase) of the PDH complex?",
+      "options": [
+        "TPP and lipoic acid",
+        "Lipoic acid and CoA",
+        "TPP and CoA",
+        "FAD and NAD⁺",
+        "Biotin and NAD⁺"
+      ],
+      "answer": 3,
+      "explanation": "E3 re-oxidizes the reduced lipoamide of E2: electrons pass to FAD and then to NAD⁺, producing NADH. Lipoic acid and CoA are the coenzymes of E2 (transacetylase).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q008",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Pantothenic acid (vitamin B5) is a component of coenzyme A. Which step of the PDH reaction directly depends on this coenzyme?",
+      "options": [
+        "Decarboxylation of pyruvate by E1",
+        "Re-oxidation of reduced lipoamide by FAD on E3",
+        "Transfer of the acetyl group from the lipoamide arm of E2 to form acetyl CoA",
+        "Transfer of electrons from FADH₂ to NAD⁺ on E3",
+        "Phosphorylation of E1 by PDH kinase"
+      ],
+      "answer": 2,
+      "explanation": "E2 (dihydrolipoyl transacetylase) transfers the acetyl group from its lipoamide arm to CoA, forming acetyl CoA. Decarboxylation uses TPP on E1, and FAD and NAD⁺ act on E3.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q009",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A patient with angular cheilitis and glossitis is diagnosed with riboflavin (vitamin B2) deficiency. Which component of the PDH complex is most directly compromised?",
+      "options": [
+        "E1 – pyruvate decarboxylase, which needs TPP",
+        "E2 – transacetylase, which needs coenzyme A",
+        "PDH kinase, which needs ATP",
+        "PDH phosphatase, which needs Ca²⁺",
+        "E3 – dihydrolipoyl dehydrogenase, which needs FAD"
+      ],
+      "answer": 4,
+      "explanation": "Riboflavin is the precursor of FAD, the coenzyme of E3 that re-oxidizes lipoamide and passes the electrons to NAD⁺. TPP (E1) is thiamine-derived and CoA (E2) is pantothenate-derived.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q010",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "In which of the following cells would the PDH complex be ABSENT?",
+      "options": [
+        "Neurons",
+        "Cardiac muscle cells",
+        "Renal tubular cells",
+        "Hepatocytes",
+        "Mature red blood cells"
+      ],
+      "answer": 4,
+      "explanation": "PDH is present in all tissues that contain mitochondria, especially kidney, brain and heart. Mature erythrocytes have no mitochondria, so they cannot oxidize pyruvate and convert it to lactate instead.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q011",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "The PDH reaction is physiologically irreversible. Which metabolic consequence follows directly from this?",
+      "options": [
+        "Pyruvate can be regenerated from acetyl CoA only in the liver",
+        "Lactate can no longer be used for gluconeogenesis",
+        "Acetyl CoA cannot be converted back to pyruvate, so it cannot be used for net glucose synthesis",
+        "Alanine cannot be transaminated to pyruvate",
+        "Fatty acids become the main substrate for gluconeogenesis"
+      ],
+      "answer": 2,
+      "explanation": "Because PDH is irreversible, carbon that reaches acetyl CoA cannot return to pyruvate and on to glucose. Lactate and alanine remain gluconeogenic because they are converted to pyruvate before the PDH step.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q012",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "In the well-fed state, high mitochondrial ATP, acetyl CoA and NADH activate PDH kinase. What happens to the PDH complex?",
+      "options": [
+        "E1 is phosphorylated and the complex is activated",
+        "E1 is dephosphorylated and the complex is activated",
+        "The complex is converted into pyruvate carboxylase",
+        "E1 is phosphorylated and the complex is inactivated",
+        "The complex is exported from the matrix to the cytosol"
+      ],
+      "answer": 3,
+      "explanation": "PDH kinase phosphorylates E1 and switches the complex off, sparing pyruvate when energy and acetyl CoA are abundant; PDH phosphatase reverses this. This covalent control is a feature of PDH that the α-KGDH complex does not share.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q013",
+      "topic": "PDH complex",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Which condition would INCREASE the activity of the PDH complex?",
+      "options": [
+        "A high mitochondrial NADH/NAD⁺ ratio",
+        "A high acetyl CoA/CoA ratio",
+        "A high ATP/ADP ratio",
+        "Increased activity of PDH kinase",
+        "A rise in mitochondrial Ca²⁺ during muscle contraction, which activates PDH phosphatase"
+      ],
+      "answer": 4,
+      "explanation": "Ca²⁺ stimulates PDH phosphatase, which dephosphorylates and activates E1, matching pyruvate oxidation to muscle work. High NADH, acetyl CoA and ATP signal abundant energy, activate PDH kinase and therefore inactivate the complex.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q014",
+      "topic": "PDH complex",
+      "objective": "L.12.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The PDH complex is found in all mitochondria-containing tissues. In which group of tissues is it particularly important, as taught?",
+      "options": [
+        "Erythrocytes, lens and cornea",
+        "Adipose tissue, bone and cartilage",
+        "Skin, hair follicles and nails",
+        "Kidney, brain and heart",
+        "Lymph nodes and spleen only"
+      ],
+      "answer": 3,
+      "explanation": "The lecture highlights kidney, brain and heart, which rely heavily on aerobic oxidation of pyruvate. Erythrocytes lack mitochondria entirely and depend on anaerobic glycolysis.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q015",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which enzyme complex of the TCA cycle has the same three-enzyme architecture (E1, E2, E3) and the same five coenzymes as the PDH complex?",
+      "options": [
+        "Isocitrate dehydrogenase",
+        "Succinate dehydrogenase",
+        "Citrate synthase",
+        "Malate dehydrogenase",
+        "α-Ketoglutarate dehydrogenase complex"
+      ],
+      "answer": 4,
+      "explanation": "α-KGDH is a PDH-like multienzyme complex (E1, E2, E3) using TPP, lipoic acid, CoA, FAD and NAD⁺. Isocitrate dehydrogenase also performs an oxidative decarboxylation but is a single enzyme.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q016",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Isocitrate dehydrogenase, the PDH complex and the α-KGDH complex all catalyse oxidative decarboxylations. How does isocitrate dehydrogenase differ from the other two?",
+      "options": [
+        "It is a three-enzyme complex with E1, E2 and E3 components",
+        "It is a single enzyme that uses NAD⁺ (or NADP⁺) and does not need TPP or lipoic acid",
+        "It requires thiamine pyrophosphate as its coenzyme",
+        "It does not release CO₂",
+        "It uses FAD as its final electron acceptor"
+      ],
+      "answer": 1,
+      "explanation": "As taught, isocitrate dehydrogenase is a single enzyme using NAD⁺/NADP⁺, whereas PDH, α-KGDH and branched-chain α-keto acid DH are E1–E2–E3 complexes with five coenzymes. It still releases CO₂ (isocitrate 6C → α-ketoglutarate 5C).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q017",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The branched-chain α-keto acid dehydrogenase complex functions mainly in:",
+      "options": [
+        "Conversion of α-ketoglutarate to succinyl CoA in the TCA cycle",
+        "Catabolism of the branched-chain amino acids leucine, isoleucine and valine",
+        "Glycolysis in the cytosol",
+        "Fatty acid synthesis",
+        "The urea cycle"
+      ],
+      "answer": 1,
+      "explanation": "It oxidatively decarboxylates the α-keto acids derived from leucine, isoleucine and valine, using the same E1–E2–E3 design and five coenzymes as PDH. Conversion of α-ketoglutarate to succinyl CoA is the job of α-KGDH.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q018",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 50-year-old woman with prolonged poor oral intake after bariatric surgery is found to be thiamine-deficient. Which set of enzyme complexes would show reduced activity?",
+      "options": [
+        "Isocitrate DH, malate DH and citrate synthase",
+        "Succinate DH, fumarase and aconitase",
+        "PDH complex only",
+        "Pyruvate carboxylase, ALT and AST",
+        "PDH complex, α-KGDH complex and branched-chain α-keto acid DH complex"
+      ],
+      "answer": 4,
+      "explanation": "All three α-keto acid dehydrogenase complexes use TPP on their E1 component, so all are impaired in thiamine deficiency. Isocitrate DH, malate DH and the other listed enzymes do not use TPP.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q019",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Which pair of products is common to the reactions catalysed by the PDH complex and the α-KGDH complex?",
+      "options": [
+        "CO₂ and NADH",
+        "GTP and FADH₂",
+        "Citrate and CoA",
+        "ATP and H₂O",
+        "Oxaloacetate and NADH"
+      ],
+      "answer": 0,
+      "explanation": "Both are oxidative decarboxylations: each releases one CO₂ and reduces NAD⁺ to NADH, and each forms a CoA thioester (acetyl CoA or succinyl CoA). GTP is made in the next TCA step by succinyl CoA synthetase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q020",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "The α-KGDH complex, the TCA-cycle analogue of PDH, converts α-ketoglutarate into:",
+      "options": [
+        "Succinate + GTP",
+        "Glutamate + NAD⁺",
+        "Succinyl CoA + CO₂ + NADH",
+        "Fumarate + FADH₂",
+        "Oxaloacetate + NADH"
+      ],
+      "answer": 2,
+      "explanation": "α-Ketoglutarate (5C) is oxidatively decarboxylated to the 4C thioester succinyl CoA, releasing CO₂ and NADH, exactly as pyruvate is converted to acetyl CoA. Succinate + GTP is formed in the following step by succinate thiokinase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q021",
+      "topic": "PDH analogues",
+      "objective": "L.12.2",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Which statement correctly compares the regulation of the PDH complex with that of the α-KGDH complex?",
+      "options": [
+        "PDH is regulated by phosphorylation (PDH kinase/phosphatase), whereas α-KGDH is not; both are inhibited by NADH",
+        "Both complexes are switched off by phosphorylation by specific kinases",
+        "α-KGDH is activated by succinyl CoA, whereas PDH is activated by acetyl CoA",
+        "Neither complex is affected by the NADH/NAD⁺ ratio",
+        "α-KGDH is inhibited by Ca²⁺, whereas PDH phosphatase is activated by Ca²⁺"
+      ],
+      "answer": 0,
+      "explanation": "PDH is controlled by covalent modification (kinase inactivates, phosphatase activates), whereas α-KGDH is controlled allosterically: inhibited by NADH and succinyl CoA (and ATP, as taught) and activated by Ca²⁺. Ca²⁺ therefore stimulates both complexes.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q022",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 6-month-old boy is brought to the emergency department with progressive lethargy, poor feeding and rapid breathing. Examination shows generalized hypotonia and severe developmental delay. Plasma lactate is elevated and plasma alanine is markedly elevated. Which enzyme is most likely impaired?",
+      "options": [
+        "Citrate synthase",
+        "Pyruvate dehydrogenase complex",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Isocitrate dehydrogenase",
+        "Malate dehydrogenase"
+      ],
+      "answer": 1,
+      "explanation": "A block at PDH traps pyruvate, which is diverted to lactate (LDH) and alanine (ALT), causing congenital lactic acidosis with neurological signs. The markedly raised alanine points to pyruvate accumulation, i.e., a block before the cycle rather than at a TCA enzyme.",
+      "origin": "Lecture critical-thinking question",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q023",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "In an infant with PDH deficiency, why is plasma alanine elevated?",
+      "options": [
+        "Muscle protein is broken down because of hypotonia",
+        "Excess acetyl CoA is converted to alanine",
+        "Lactate is directly aminated to alanine by LDH",
+        "Accumulated pyruvate is transaminated to alanine by alanine transaminase (ALT)",
+        "Glutamate dehydrogenase converts pyruvate to alanine"
+      ],
+      "answer": 3,
+      "explanation": "With PDH blocked, pyruvate accumulates and is converted to lactate (LDH) and to alanine (ALT). Acetyl CoA from pyruvate is decreased, not increased, in PDH deficiency.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q024",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "A 2-year-old with seizures and poor coordination is suspected of having congenital PDH deficiency. Which blood profile best supports this diagnosis?",
+      "options": [
+        "↓ Pyruvate, ↓ lactate, ↑ alanine",
+        "↑ Pyruvate, ↓ lactate, ↓ alanine",
+        "↑ Pyruvate, ↑ lactate, ↑ alanine",
+        "Normal lactate with ↑ ammonia",
+        "↑ Ketone bodies with ↓ lactate"
+      ],
+      "answer": 2,
+      "explanation": "PDH deficiency causes accumulation of pyruvate and of its two alternative products, lactate and alanine. This is why it is a major cause of congenital lactic acidosis.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q025",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A child with PDH deficiency has hypotonia, developmental delay and seizures. Why does this enzyme defect predominantly damage the nervous system?",
+      "options": [
+        "Neurons lack mitochondria",
+        "The brain uses fatty acids as its main fuel",
+        "Acetyl CoA accumulates and is directly neurotoxic",
+        "PDH is not normally present in the brain",
+        "The brain depends heavily on aerobic oxidation of glucose-derived pyruvate for its ATP"
+      ],
+      "answer": 4,
+      "explanation": "The brain relies on glucose oxidation via PDH and the TCA cycle, so blocking pyruvate entry causes energy failure in neurons. The brain is one of the tissues with especially high PDH activity, and acetyl CoA from pyruvate falls rather than accumulates.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q026",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "A 4-month-old girl has tachypnoea, hypotonia and a markedly raised blood lactate. Enzyme studies in cultured fibroblasts show low PDH complex activity. Her condition is best classified as:",
+      "options": [
+        "Congenital lactic acidosis due to impaired pyruvate oxidation",
+        "Hyperammonaemia due to a urea cycle defect",
+        "Haemolytic anaemia due to a glycolytic enzyme defect",
+        "Phenylketonuria due to a phenylalanine hydroxylase defect",
+        "Diabetic ketoacidosis due to insulin deficiency"
+      ],
+      "answer": 0,
+      "explanation": "PDH deficiency is a major cause of congenital lactic acidosis in infants and young children: pyruvate that cannot be converted to acetyl CoA is reduced to lactate. The other conditions involve different enzymes and different metabolites.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q027",
+      "topic": "PDH deficiency",
+      "objective": "L.12.1",
+      "type": "clinical",
+      "difficulty": 3,
+      "stem": "An infant with confirmed PDH deficiency has persistent lactic acidosis. Which dietary approach most logically reduces lactate production?",
+      "options": [
+        "A low-carbohydrate, high-fat (ketogenic) diet",
+        "A high-carbohydrate diet with frequent glucose feeds",
+        "Continuous intravenous glucose infusion",
+        "A high-protein diet rich in alanine",
+        "A lactate-enriched infant formula"
+      ],
+      "answer": 0,
+      "explanation": "Restricting carbohydrate reduces pyruvate formation, while fat-derived acetyl CoA and ketone bodies supply the TCA cycle without passing through PDH. Extra glucose or alanine would increase pyruvate and worsen the lactic acidosis.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q028",
+      "topic": "Thiamine",
+      "objective": "L.12.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A malnourished chronic alcoholic is brought in confused and hypoglycaemic. Why must thiamine be given immediately, either right before or together with intravenous glucose?",
+      "options": [
+        "Thiamine is required for glucose absorption from the intestine",
+        "Thiamine is the coenzyme of hexokinase, so glucose cannot be phosphorylated without it",
+        "Glucose increases flux to pyruvate and through TPP-dependent PDH and α-KGDH; without thiamine this worsens lactic acidosis and can precipitate Wernicke encephalopathy",
+        "Glucose destroys thiamine in plasma, so thiamine must be given first to protect it",
+        "Thiamine stimulates insulin secretion and prevents rebound hypoglycaemia"
+      ],
+      "answer": 2,
+      "explanation": "A glucose load raises glycolytic production of pyruvate, which needs TPP-dependent PDH (and then α-KGDH) to be oxidized; in thiamine depletion the pyruvate is shunted to lactate and the brain's energy supply fails. Hexokinase does not need TPP, and intravenous glucose bypasses intestinal absorption.",
+      "origin": "Adapted from Lecture L.12 critical-thinking question (options written for this bank)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q029",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "A 52-year-old man with long-standing alcohol misuse presents with confusion, ataxia and ophthalmoplegia. Deficiency of which coenzyme is most responsible?",
+      "options": [
+        "Pyridoxal phosphate (PLP)",
+        "Flavin adenine dinucleotide (FAD)",
+        "Biotin",
+        "Thiamine pyrophosphate (TPP)",
+        "Coenzyme A"
+      ],
+      "answer": 3,
+      "explanation": "This is Wernicke encephalopathy (part of Wernicke–Korsakoff syndrome), caused by thiamine deficiency that cripples the TPP-dependent PDH and α-KGDH complexes in the brain. Alcoholics are at risk because of poor intake and impaired absorption.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q030",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 35-year-old man whose diet consists mainly of polished white rice presents with peripheral oedema, breathlessness, tachycardia and cardiomegaly. Echocardiography shows a high-output state. What is the most likely diagnosis?",
+      "options": [
+        "Pellagra due to niacin deficiency",
+        "Scurvy due to vitamin C deficiency",
+        "Megaloblastic anaemia due to folate deficiency",
+        "Wet beriberi due to thiamine deficiency",
+        "Osteomalacia due to vitamin D deficiency"
+      ],
+      "answer": 3,
+      "explanation": "Wet beriberi is the cardiac form of thiamine deficiency: impaired PDH and α-KGDH cause energy failure in the heart, leading to high-output congestive heart failure. Pellagra instead presents with dermatitis, diarrhoea and dementia.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q031",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A malnourished patient with thiamine deficiency has both heart failure and encephalopathy. Why are the heart and brain affected most?",
+      "options": [
+        "They have the highest aerobic metabolic demand and depend on TPP-dependent PDH and α-KGDH for ATP",
+        "They are the only tissues that store thiamine",
+        "They lack the enzyme lactate dehydrogenase",
+        "They obtain their ATP mainly from anaerobic glycolysis",
+        "They use thiamine as a structural protein"
+      ],
+      "answer": 0,
+      "explanation": "Thiamine deficiency impairs PDH and α-KGDH, causing an energy failure that selectively damages the tissues with the highest metabolic and glucose demands: the heart (wet beriberi) and the brain (Wernicke–Korsakoff). Tissues relying on anaerobic glycolysis would be spared, not targeted.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q032",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "In a patient with severe thiamine deficiency, which metabolites are expected to accumulate in blood?",
+      "options": [
+        "Acetyl CoA and citrate",
+        "Pyruvate, lactate and α-ketoglutarate",
+        "Succinyl CoA and fumarate",
+        "Oxaloacetate and malate",
+        "Ammonia and glutamine"
+      ],
+      "answer": 1,
+      "explanation": "Without TPP, PDH and α-KGDH cannot act on their α-keto acid substrates, so pyruvate (with lactate derived from it) and α-ketoglutarate build up. The products downstream of these blocks, such as acetyl CoA and succinyl CoA, decrease.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q033",
+      "topic": "Thiamine",
+      "objective": "L.12.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 45-year-old man with chronic alcoholism and poor nutrition is found unconscious; his blood glucose is 2.2 mmol/L. Which initial management is most appropriate?",
+      "options": [
+        "Intravenous dextrose alone; thiamine is unnecessary",
+        "Intravenous dextrose now and oral thiamine after he recovers",
+        "Intravenous insulin with dextrose",
+        "Intravenous thiamine immediately before or together with intravenous dextrose",
+        "Intravenous bicarbonate before any glucose"
+      ],
+      "answer": 3,
+      "explanation": "In alcoholics and malnourished patients thiamine must be given immediately, concurrently with or just before glucose, so that the extra pyruvate from glucose can be oxidized by TPP-dependent PDH. Delaying thiamine risks precipitating Wernicke encephalopathy and lactic acidosis.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q034",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "In a thiamine-deficient patient, ATP production by the heart falls mainly because:",
+      "options": [
+        "Complex IV can no longer transfer electrons to O₂",
+        "Pyruvate cannot enter the TCA cycle as acetyl CoA, and α-KGDH flux within the cycle is reduced",
+        "The Fo channel of ATP synthase is blocked",
+        "Pyruvate kinase can no longer perform substrate-level phosphorylation",
+        "Glucose can no longer enter cardiac cells"
+      ],
+      "answer": 1,
+      "explanation": "TPP is needed by PDH and α-KGDH, so fewer NADH and FADH₂ are delivered to the ETC and ATP synthesis falls. The ETC complexes and ATP synthase themselves are intact; the shortage is of reduced coenzymes.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q035",
+      "topic": "Thiamine",
+      "objective": "L.12.4",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "Which of these patients is at greatest risk of developing Wernicke encephalopathy if given intravenous glucose without thiamine?",
+      "options": [
+        "A well-nourished 25-year-old athlete after a marathon",
+        "A patient on long-term isoniazid therapy with a normal diet",
+        "A 50-year-old man with chronic alcoholism and a poor diet",
+        "A healthy adult who eats raw egg white daily",
+        "An exclusively breast-fed infant of a well-nourished mother"
+      ],
+      "answer": 2,
+      "explanation": "Chronic alcoholics combine poor thiamine intake with impaired absorption and storage, so a glucose load can exhaust the remaining TPP and precipitate Wernicke encephalopathy. Isoniazid causes B6 deficiency and raw egg white (avidin) causes biotin deficiency.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q036",
+      "topic": "Thiamine",
+      "objective": "L.12.3",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "In a chronic alcoholic with severe thiamine deficiency, which TCA-cycle enzyme loses activity in addition to the PDH complex?",
+      "options": [
+        "α-Ketoglutarate dehydrogenase complex",
+        "Isocitrate dehydrogenase",
+        "Succinate thiokinase",
+        "Malate dehydrogenase",
+        "Fumarase"
+      ],
+      "answer": 0,
+      "explanation": "α-KGDH is a PDH-like complex whose E1 uses TPP, which is why thiamine deficiency impairs the TCA cycle itself and not only the entry of pyruvate. Isocitrate dehydrogenase uses NAD⁺/NADP⁺ only.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q037",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which enzyme catalyses the condensation of acetyl CoA with oxaloacetate to form citrate?",
+      "options": [
+        "Aconitase",
+        "Isocitrate dehydrogenase",
+        "Malate dehydrogenase",
+        "Pyruvate carboxylase",
+        "Citrate synthase"
+      ],
+      "answer": 4,
+      "explanation": "Citrate synthase joins acetyl CoA (2C) and oxaloacetate (4C) to form citrate (6C) in a condensation reaction. Pyruvate carboxylase makes oxaloacetate from pyruvate but does not form citrate.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q038",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The conversion of citrate to isocitrate by aconitase is an example of which reaction type?",
+      "options": [
+        "Oxidative decarboxylation",
+        "Condensation",
+        "Substrate-level phosphorylation",
+        "Dehydrogenation",
+        "Isomerization"
+      ],
+      "answer": 4,
+      "explanation": "Aconitase rearranges citrate into its isomer isocitrate; both have six carbons and no carbon or electrons are removed. The first oxidative decarboxylation occurs in the next step, at isocitrate dehydrogenase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q039",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Which reaction of the TCA cycle converts a six-carbon compound into a five-carbon compound?",
+      "options": [
+        "Citrate → isocitrate",
+        "α-Ketoglutarate → succinyl CoA",
+        "Succinate → fumarate",
+        "Isocitrate → α-ketoglutarate",
+        "Malate → oxaloacetate"
+      ],
+      "answer": 3,
+      "explanation": "Isocitrate dehydrogenase removes one carbon as CO₂, turning isocitrate (6C) into α-ketoglutarate (5C) and producing NADH. α-Ketoglutarate → succinyl CoA is the 5C → 4C step.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q040",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The two CO₂ molecules released in each turn of the TCA cycle are produced by which enzymes?",
+      "options": [
+        "Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase complex",
+        "Citrate synthase and aconitase",
+        "Succinate dehydrogenase and fumarase",
+        "PDH complex and isocitrate dehydrogenase",
+        "α-Ketoglutarate dehydrogenase complex and malate dehydrogenase"
+      ],
+      "answer": 0,
+      "explanation": "The two oxidative decarboxylations of the cycle occur at isocitrate DH (6C → 5C) and α-KGDH (5C → 4C). PDH also releases CO₂, but it is the link reaction before the cycle, not part of it.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q041",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which TCA-cycle enzyme generates GTP by substrate-level phosphorylation?",
+      "options": [
+        "α-Ketoglutarate dehydrogenase complex",
+        "Succinate dehydrogenase",
+        "Malate dehydrogenase",
+        "Citrate synthase",
+        "Succinate thiokinase (succinyl CoA synthetase)"
+      ],
+      "answer": 4,
+      "explanation": "Succinyl CoA synthetase uses the energy of the succinyl CoA thioester bond to make GTP from GDP + Pi, the only substrate-level phosphorylation in the cycle. Succinate dehydrogenase, the next enzyme, produces FADH₂.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q042",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which TCA-cycle enzyme uses FAD and also functions as Complex II of the electron transport chain?",
+      "options": [
+        "Malate dehydrogenase",
+        "Isocitrate dehydrogenase",
+        "α-Ketoglutarate dehydrogenase complex",
+        "Fumarase",
+        "Succinate dehydrogenase"
+      ],
+      "answer": 4,
+      "explanation": "Succinate dehydrogenase oxidizes succinate to fumarate, reducing FAD to FADH₂, and passes the electrons to coenzyme Q as Complex II. The other dehydrogenases of the cycle reduce NAD⁺.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q043",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Fumarase converts fumarate to malate. Which reaction type is this?",
+      "options": [
+        "Dehydrogenation",
+        "Isomerization",
+        "Decarboxylation",
+        "Hydration",
+        "Condensation"
+      ],
+      "answer": 3,
+      "explanation": "Fumarase adds water across the double bond of fumarate to form malate; both are four-carbon compounds. No electrons are removed, so no NADH or FADH₂ is formed in this step.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q044",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Malate dehydrogenase catalyses the final step of the TCA cycle. What are its products?",
+      "options": [
+        "Oxaloacetate + FADH₂",
+        "Fumarate + H₂O",
+        "Citrate + CoA",
+        "Oxaloacetate + NADH + H⁺",
+        "Succinate + GTP"
+      ],
+      "answer": 3,
+      "explanation": "Malate is oxidized to oxaloacetate with reduction of NAD⁺ to NADH, regenerating the four-carbon acceptor for the next acetyl CoA. FADH₂ is produced only at the succinate dehydrogenase step.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q045",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "If the mitochondrial NAD⁺ pool became almost completely reduced to NADH (for example, when the ETC is blocked), which three TCA-cycle enzymes would be directly deprived of their coenzyme?",
+      "options": [
+        "Citrate synthase, aconitase and fumarase",
+        "Succinate dehydrogenase, fumarase and malate dehydrogenase",
+        "Isocitrate dehydrogenase, succinate dehydrogenase and succinate thiokinase",
+        "α-Ketoglutarate dehydrogenase complex, succinate dehydrogenase and citrate synthase",
+        "Isocitrate dehydrogenase, α-ketoglutarate dehydrogenase complex and malate dehydrogenase"
+      ],
+      "answer": 4,
+      "explanation": "Steps 3, 4 and 8 (isocitrate DH, α-KGDH and malate DH) use NAD⁺ as electron acceptor and produce the 3 NADH of each turn. Succinate dehydrogenase uses FAD, and citrate synthase, aconitase and fumarase do not use NAD⁺.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q046",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which sequence lists the TCA-cycle intermediates in the order in which they are formed?",
+      "options": [
+        "Citrate → α-ketoglutarate → isocitrate → succinyl CoA → succinate → fumarate → malate → oxaloacetate",
+        "Citrate → isocitrate → α-ketoglutarate → succinate → succinyl CoA → fumarate → malate → oxaloacetate",
+        "Citrate → isocitrate → α-ketoglutarate → succinyl CoA → succinate → fumarate → malate → oxaloacetate",
+        "Citrate → isocitrate → α-ketoglutarate → succinyl CoA → succinate → malate → fumarate → oxaloacetate",
+        "Citrate → isocitrate → succinyl CoA → α-ketoglutarate → succinate → fumarate → malate → oxaloacetate"
+      ],
+      "answer": 2,
+      "explanation": "Starting from citrate, the cycle passes through isocitrate, α-ketoglutarate, succinyl CoA, succinate, fumarate and malate before regenerating oxaloacetate. Succinyl CoA always precedes succinate, and fumarate precedes malate.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q047",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which TCA-cycle enzyme is NOT a soluble enzyme of the mitochondrial matrix?",
+      "options": [
+        "Succinate dehydrogenase",
+        "Citrate synthase",
+        "Fumarase",
+        "Malate dehydrogenase",
+        "Isocitrate dehydrogenase"
+      ],
+      "answer": 0,
+      "explanation": "Succinate dehydrogenase is embedded in the inner mitochondrial membrane because it is also Complex II of the ETC. The other TCA enzymes are soluble matrix enzymes.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q048",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Acetyl CoA (2C) combines with oxaloacetate (4C) to form citrate (6C). By the end of one complete turn of the cycle, what has happened to the carbon balance?",
+      "options": [
+        "Three CO₂ have been released and pyruvate has been regenerated",
+        "No CO₂ has been released; the carbons are stored as succinate",
+        "One CO₂ has been released and citrate has been regenerated",
+        "Both acetyl carbons have been converted into glucose",
+        "Two carbons have been released as CO₂ and oxaloacetate (4C) has been regenerated"
+      ],
+      "answer": 4,
+      "explanation": "Two decarboxylations (isocitrate DH and α-KGDH) release two CO₂ per turn, balancing the two carbons that entered, so oxaloacetate is regenerated with no net gain or loss of intermediates.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q049",
+      "topic": "TCA steps",
+      "objective": "L.13.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which statement best describes the TCA cycle?",
+      "options": [
+        "It occurs in the mitochondrial matrix and is the common final pathway for oxidation of carbohydrates, fats and amino acids",
+        "It occurs in the cytosol and oxidizes glucose anaerobically",
+        "It occurs in the inner mitochondrial membrane and makes most ATP directly from a proton gradient",
+        "It occurs in the endoplasmic reticulum and detoxifies drugs",
+        "It operates only during fasting, to convert acetyl CoA into glucose"
+      ],
+      "answer": 0,
+      "explanation": "The TCA cycle is the second stage of aerobic respiration; it runs in the matrix and oxidizes acetyl CoA from all fuels to CO₂. Most ATP is made afterwards by oxidative phosphorylation, not by the cycle itself.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q050",
+      "topic": "TCA steps",
+      "objective": "L.13.2",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "In a patient with severe hypoxaemia, TCA-cycle activity in the brain falls even though no TCA reaction uses O₂ directly. Why?",
+      "options": [
+        "Citrate synthase uses O₂ as a co-substrate",
+        "Aconitase contains a heme group that must bind O₂",
+        "CO₂ cannot be released in the absence of O₂",
+        "NAD⁺ and FAD can only be regenerated from NADH and FADH₂ by the O₂-dependent electron transport chain",
+        "GTP synthesis by succinate thiokinase requires O₂"
+      ],
+      "answer": 3,
+      "explanation": "The cycle's dehydrogenases need a continuous supply of oxidized NAD⁺ and FAD, which is provided only when the ETC passes electrons to O₂. Without O₂, NADH and FADH₂ accumulate and the dehydrogenase steps halt.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q051",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "When succinyl CoA is converted to succinate, the energy used to form GTP comes from:",
+      "options": [
+        "The proton gradient across the inner mitochondrial membrane",
+        "Cleavage of the high-energy thioester bond of succinyl CoA",
+        "Oxidation of FADH₂ by Complex II",
+        "Hydrolysis of ATP",
+        "Decarboxylation of succinyl CoA"
+      ],
+      "answer": 1,
+      "explanation": "This is substrate-level phosphorylation: the free energy of the thioester bond is used directly to phosphorylate GDP. The proton gradient drives ATP synthase in oxidative phosphorylation, a different mechanism.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q052",
+      "topic": "TCA steps",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which pair of TCA-cycle intermediates both contain six carbon atoms?",
+      "options": [
+        "Isocitrate and α-ketoglutarate",
+        "α-Ketoglutarate and succinyl CoA",
+        "Citrate and isocitrate",
+        "Succinate and fumarate",
+        "Oxaloacetate and citrate"
+      ],
+      "answer": 2,
+      "explanation": "Citrate and isocitrate are both 6C (aconitase only isomerizes). α-Ketoglutarate is 5C, while succinyl CoA, succinate, fumarate, malate and oxaloacetate are 4C.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q053",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Oxidation of one acetyl CoA in the TCA cycle produces:",
+      "options": [
+        "2 NADH, 2 FADH₂, 1 GTP and 2 CO₂",
+        "3 NADH, 1 FADH₂, 1 GTP and 2 CO₂",
+        "3 NADH, 1 FADH₂, 2 GTP and 3 CO₂",
+        "4 NADH, 1 FADH₂, 1 GTP and 2 CO₂",
+        "3 NADH, 2 FADH₂, 1 GTP and 1 CO₂"
+      ],
+      "answer": 1,
+      "explanation": "NADH comes from isocitrate DH, α-KGDH and malate DH; FADH₂ from succinate DH; GTP from succinate thiokinase; and the two CO₂ from the two oxidative decarboxylations. A fourth NADH and third CO₂ belong to the PDH step, which precedes the cycle.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q054",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Using the convention NADH = 2.5 ATP and FADH₂ = 1.5 ATP, how many ATP are obtained from complete oxidation of one acetyl CoA through the TCA cycle and oxidative phosphorylation?",
+      "options": [
+        "7.5 ATP",
+        "8.5 ATP",
+        "9 ATP",
+        "10 ATP",
+        "12 ATP"
+      ],
+      "answer": 3,
+      "explanation": "3 NADH × 2.5 = 7.5, plus 1 FADH₂ × 1.5 = 1.5, plus 1 GTP = 1, giving 10 ATP. The value 12 comes from the older convention (NADH = 3, FADH₂ = 2).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q055",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Using NADH = 2.5 ATP and FADH₂ = 1.5 ATP, approximately how many ATP are produced when one pyruvate is completely oxidized to CO₂ and H₂O in the mitochondria?",
+      "options": [
+        "10 ATP",
+        "12.5 ATP",
+        "15 ATP",
+        "20 ATP",
+        "25 ATP"
+      ],
+      "answer": 1,
+      "explanation": "The PDH step gives 1 NADH (2.5 ATP) and the TCA cycle gives 10 ATP per acetyl CoA, so 12.5 ATP per pyruvate. The value 15 would result from the older convention (3 + 12).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q056",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "What is the total ATP yield from the complete aerobic oxidation of one glucose molecule? Use NADH = 2.5 ATP and FADH₂ = 1.5 ATP, and assume cytosolic NADH enters the mitochondria via the malate–aspartate shuttle.",
+      "options": [
+        "2 ATP",
+        "4 ATP",
+        "12.5 ATP",
+        "25 ATP",
+        "32 ATP"
+      ],
+      "answer": 4,
+      "explanation": "Glycolysis gives 2 ATP + 2 NADH (5 ATP), PDH gives 2 NADH (5 ATP) and the TCA cycle gives 2 × 10 = 20 ATP, a total of about 32 ATP. With the older convention (NADH = 3, FADH₂ = 2) the same calculation gives 38.",
+      "origin": "Adapted from Lecture L.13 critical-thinking question (options written for this bank)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q057",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "If the two cytosolic NADH from glycolysis enter the mitochondria via the glycerol-3-phosphate shuttle (delivering their electrons as FADH₂), what is the approximate ATP yield per glucose (NADH = 2.5, FADH₂ = 1.5)?",
+      "options": [
+        "2 ATP",
+        "12.5 ATP",
+        "20 ATP",
+        "30 ATP",
+        "38 ATP"
+      ],
+      "answer": 3,
+      "explanation": "Each cytosolic NADH is now worth 1.5 instead of 2.5 ATP, so the total falls from 32 (malate–aspartate shuttle) to 30. The value 38 is the older-convention maximum and 20 is the TCA-cycle contribution alone.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q058",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Using the OLDER Lippincott convention mentioned on the slides (NADH = 3 ATP, FADH₂ = 2 ATP), how many ATP are produced per acetyl CoA oxidized in the TCA cycle?",
+      "options": [
+        "12 ATP",
+        "15 ATP",
+        "18 ATP",
+        "24 ATP",
+        "36 ATP"
+      ],
+      "answer": 0,
+      "explanation": "3 NADH × 3 = 9, plus 1 FADH₂ × 2 = 2, plus 1 GTP = 12 ATP under the older convention. The current convention used in this course gives 10.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q059",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "How many ATP are generated when one molecule of succinate is oxidized to oxaloacetate in the TCA cycle (NADH = 2.5, FADH₂ = 1.5)?",
+      "options": [
+        "1.5 ATP",
+        "2.5 ATP",
+        "4 ATP",
+        "5 ATP",
+        "6 ATP"
+      ],
+      "answer": 2,
+      "explanation": "Succinate → fumarate gives 1 FADH₂ (1.5 ATP), fumarate → malate gives none, and malate → oxaloacetate gives 1 NADH (2.5 ATP): 4 ATP in total. The value 5 results from wrongly applying the older convention.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q060",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "How many ATP are generated when one α-ketoglutarate is converted to oxaloacetate through the TCA cycle (NADH = 2.5, FADH₂ = 1.5, GTP = 1 ATP)?",
+      "options": [
+        "4 ATP",
+        "5 ATP",
+        "6.5 ATP",
+        "7.5 ATP",
+        "10 ATP"
+      ],
+      "answer": 3,
+      "explanation": "α-KGDH gives NADH (2.5), succinate thiokinase gives GTP (1), succinate DH gives FADH₂ (1.5) and malate DH gives NADH (2.5): 7.5 ATP in total. Forgetting the GTP gives 6.5.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q061",
+      "topic": "TCA energetics",
+      "objective": "L.13.1",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "In a patient in circulatory shock, severely hypoxic tissues cannot use the TCA cycle and oxidative phosphorylation, and glucose is metabolized only to lactate. What is the net ATP yield per glucose under these conditions?",
+      "options": [
+        "0 ATP",
+        "2 ATP",
+        "4 ATP",
+        "12.5 ATP",
+        "30 ATP"
+      ],
+      "answer": 1,
+      "explanation": "Anaerobic glycolysis yields a net 2 ATP per glucose by substrate-level phosphorylation, compared with about 32 when the TCA cycle and ETC operate. Four ATP are formed in total, but 2 are consumed in the early steps.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q062",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The citric acid cycle is regulated at three distinct points. One of the regulatory enzymes is isocitrate dehydrogenase. Which of the following are inhibitors of this enzyme?",
+      "options": [
+        "NADH and ATP",
+        "Calcium and NADH",
+        "ATP and citrate",
+        "Succinyl CoA and NADH",
+        "ADP and NADH"
+      ],
+      "answer": 0,
+      "explanation": "Isocitrate dehydrogenase is inhibited by NADH and ATP (signals of high energy) and activated by Ca²⁺ and ADP. Succinyl CoA inhibits citrate synthase and α-KGDH, not isocitrate dehydrogenase.",
+      "origin": "Lecture critical-thinking question",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q063",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which three enzymes are the regulated control points of the TCA cycle, as taught?",
+      "options": [
+        "Aconitase, fumarase and malate dehydrogenase",
+        "Succinate dehydrogenase, fumarase and aconitase",
+        "Citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase complex",
+        "Citrate synthase, succinate thiokinase and malate dehydrogenase",
+        "PDH complex, pyruvate carboxylase and malic enzyme"
+      ],
+      "answer": 2,
+      "explanation": "These three enzymes catalyse the irreversible, regulated steps of the cycle and respond to the energy state of the cell (ATP/ADP, NADH/NAD⁺, Ca²⁺). Aconitase, fumarase and malate DH catalyse near-equilibrium reactions.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q064",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Ca²⁺ released during muscle contraction stimulates which TCA-cycle enzymes?",
+      "options": [
+        "Citrate synthase and malate dehydrogenase",
+        "Succinate dehydrogenase and fumarase",
+        "Aconitase and citrate synthase",
+        "Isocitrate dehydrogenase and α-ketoglutarate dehydrogenase complex",
+        "Malate dehydrogenase and succinate thiokinase"
+      ],
+      "answer": 3,
+      "explanation": "As taught, Ca²⁺ activates isocitrate DH and α-KGDH, linking TCA flux to muscle activity. Citrate synthase is activated by ADP but is not listed as a Ca²⁺ target.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q065",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "If succinyl CoA accumulates in the mitochondria, which TCA-cycle enzymes are directly inhibited by it, as taught?",
+      "options": [
+        "Citrate synthase and α-ketoglutarate dehydrogenase complex",
+        "Isocitrate dehydrogenase and malate dehydrogenase",
+        "Fumarase and aconitase",
+        "Succinate dehydrogenase and isocitrate dehydrogenase",
+        "Malate dehydrogenase and fumarase"
+      ],
+      "answer": 0,
+      "explanation": "Succinyl CoA, the product of α-KGDH, inhibits the enzyme that makes it and the first enzyme of the cycle, citrate synthase. Isocitrate DH is inhibited by NADH and ATP but not by succinyl CoA.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q066",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "What is the effect of a high mitochondrial NADH/NAD⁺ ratio on the TCA cycle?",
+      "options": [
+        "It activates isocitrate dehydrogenase and α-KGDH, speeding the cycle",
+        "It has no effect, because NADH is not a TCA regulator",
+        "It inhibits citrate synthase, isocitrate dehydrogenase and α-KGDH, slowing the cycle",
+        "It activates citrate synthase only",
+        "It inhibits succinate dehydrogenase only"
+      ],
+      "answer": 2,
+      "explanation": "NADH is a product of the cycle and inhibits all three regulated enzymes, so the cycle slows when the ETC cannot keep up with NADH re-oxidation. A low NADH/NAD⁺ ratio relieves this inhibition.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q067",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "A rise in mitochondrial ADP (a low-energy state) affects the TCA cycle by:",
+      "options": [
+        "Inhibiting citrate synthase and isocitrate dehydrogenase",
+        "Activating citrate synthase and isocitrate dehydrogenase",
+        "Inhibiting α-ketoglutarate dehydrogenase only",
+        "Inhibiting all three regulated enzymes",
+        "Having no effect on the TCA cycle"
+      ],
+      "answer": 1,
+      "explanation": "ADP signals a need for ATP and, as taught, activates citrate synthase and isocitrate dehydrogenase, increasing the supply of NADH and FADH₂ to the ETC. ATP has the opposite, inhibitory effect.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q068",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "As taught, citrate synthase is inhibited by all of the following EXCEPT:",
+      "options": [
+        "ATP",
+        "ADP",
+        "NADH",
+        "Succinyl CoA",
+        "Citrate"
+      ],
+      "answer": 1,
+      "explanation": "Citrate synthase is inhibited by ATP, NADH, succinyl CoA and its own product citrate, but it is activated by ADP. ADP rises when energy is needed, so it speeds the cycle.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q069",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "During a sprint, TCA-cycle flux in skeletal muscle rises sharply. Which combination of signals is mainly responsible?",
+      "options": [
+        "↑ ATP and ↑ NADH/NAD⁺ ratio",
+        "↑ Succinyl CoA and ↑ citrate",
+        "↓ Ca²⁺ and ↑ ATP/ADP ratio",
+        "↑ NADH and ↓ ADP",
+        "↑ Ca²⁺, ↑ ADP and ↓ NADH/NAD⁺ ratio"
+      ],
+      "answer": 4,
+      "explanation": "Contraction releases Ca²⁺ (activating isocitrate DH and α-KGDH), consumes ATP (raising ADP, which activates citrate synthase and isocitrate DH), and the active ETC keeps NADH low. ATP, NADH, succinyl CoA and citrate are all inhibitory signals.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q070",
+      "topic": "TCA regulation",
+      "objective": "L.13.1",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Why does accumulation of ATP in a resting, well-fed cell slow the TCA cycle?",
+      "options": [
+        "ATP competitively inhibits succinate dehydrogenase at Complex II",
+        "ATP covalently phosphorylates and inactivates aconitase",
+        "ATP allosterically inhibits citrate synthase, isocitrate dehydrogenase and α-KGDH",
+        "ATP is consumed as a substrate in every turn of the cycle",
+        "ATP binds Ca²⁺ and thereby activates isocitrate dehydrogenase"
+      ],
+      "answer": 2,
+      "explanation": "As taught, ATP inhibits all three regulated enzymes, so fuel oxidation is matched to energy need. The cycle does not consume ATP; it produces GTP.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q071",
+      "topic": "Amphibolic",
+      "objective": "L.13.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The TCA cycle is described as amphibolic because it:",
+      "options": [
+        "Operates in both the cytosol and the mitochondria",
+        "Functions both in catabolism (oxidizing fuels) and in anabolism (supplying biosynthetic precursors)",
+        "Works both aerobically and anaerobically",
+        "Uses NADP⁺ exclusively as its electron acceptor",
+        "Is freely reversible at every step"
+      ],
+      "answer": 1,
+      "explanation": "The cycle oxidizes acetyl CoA to CO₂ (catabolic) while its intermediates are drawn off for glucose, lipid, amino acid and heme synthesis (anabolic). It is strictly mitochondrial and depends indirectly on O₂.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q072",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which anaplerotic reaction is the most important for replenishing oxaloacetate in the TCA cycle?",
+      "options": [
+        "PDH complex: pyruvate → acetyl CoA + CO₂",
+        "Lactate dehydrogenase: pyruvate → lactate",
+        "Alanine transaminase: pyruvate → alanine",
+        "Citrate synthase: oxaloacetate + acetyl CoA → citrate",
+        "Pyruvate carboxylase: pyruvate + CO₂ + ATP → oxaloacetate"
+      ],
+      "answer": 4,
+      "explanation": "Anaplerotic reactions refill cycle intermediates, and pyruvate carboxylase forms oxaloacetate directly. The PDH reaction supplies acetyl CoA, which is oxidized but cannot increase the amount of cycle intermediates.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q073",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "In the lecture's amphibolic figure, which TCA intermediate is the direct exit point to gluconeogenesis?",
+      "options": [
+        "Acetyl CoA",
+        "Citrate",
+        "Succinyl CoA",
+        "α-Ketoglutarate",
+        "Oxaloacetate"
+      ],
+      "answer": 4,
+      "explanation": "Oxaloacetate is converted to phosphoenolpyruvate and then to glucose, linking the cycle with gluconeogenesis. Citrate exits for lipid synthesis, succinyl CoA for heme synthesis and α-ketoglutarate for glutamate.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q074",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Developing red cells in the bone marrow synthesize large amounts of heme. Which TCA intermediate do they withdraw for this purpose?",
+      "options": [
+        "Citrate",
+        "α-Ketoglutarate",
+        "Oxaloacetate",
+        "Succinyl CoA",
+        "Fumarate"
+      ],
+      "answer": 3,
+      "explanation": "Succinyl CoA condenses with glycine in the first step of heme synthesis, which is why it appears in the amphibolic figure as the link to heme. Citrate supplies acetyl CoA for lipids, while α-ketoglutarate and oxaloacetate supply glutamate and aspartate.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q075",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Citrate exported from the mitochondria to the cytosol serves mainly as a source of:",
+      "options": [
+        "Oxaloacetate for heme synthesis",
+        "Succinyl CoA for ketone body synthesis",
+        "Acetyl CoA for fatty acid and cholesterol synthesis",
+        "Glutamate for protein synthesis",
+        "Pyruvate for glycolysis"
+      ],
+      "answer": 2,
+      "explanation": "Acetyl CoA cannot cross the inner mitochondrial membrane, so it leaves as citrate, which is cleaved in the cytosol to release acetyl CoA for lipid synthesis. This is the citrate/acetyl CoA → lipid synthesis arm of the amphibolic figure.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q076",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Glutamate dehydrogenase links the TCA cycle with amino acid metabolism through which intermediate?",
+      "options": [
+        "α-Ketoglutarate",
+        "Oxaloacetate",
+        "Succinyl CoA",
+        "Fumarate",
+        "Citrate"
+      ],
+      "answer": 0,
+      "explanation": "Glutamate dehydrogenase interconverts α-ketoglutarate and glutamate, so the cycle can supply carbon skeletons for amino acid and protein synthesis. Oxaloacetate is linked to aspartate by AST.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q077",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Aspartate transaminase (AST) connects the TCA cycle to amino acid metabolism by interconverting:",
+      "options": [
+        "Oxaloacetate and aspartate",
+        "Pyruvate and alanine",
+        "Succinyl CoA and glycine",
+        "Citrate and acetyl CoA",
+        "Fumarate and malate"
+      ],
+      "answer": 0,
+      "explanation": "AST transfers an amino group to oxaloacetate to form aspartate (and back), providing aspartate for protein synthesis. Pyruvate ↔ alanine is the ALT reaction.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q078",
+      "topic": "Amphibolic",
+      "objective": "L.13.3",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Propionyl CoA, derived from odd-chain fatty acids and some amino acids, enters the TCA cycle as:",
+      "options": [
+        "Succinyl CoA",
+        "Acetyl CoA",
+        "α-Ketoglutarate",
+        "Oxaloacetate",
+        "Citrate"
+      ],
+      "answer": 0,
+      "explanation": "Propionyl CoA is converted (via methylmalonyl CoA) to succinyl CoA, shown in the lecture figure as propionyl CoA ↔ succinyl CoA. Because it adds a cycle intermediate, this route is anaplerotic.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q079",
+      "topic": "Amphibolic",
+      "objective": "L.13.2",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Why can acetyl CoA from fatty acid oxidation NOT provide net synthesis of oxaloacetate for gluconeogenesis?",
+      "options": [
+        "Acetyl CoA cannot enter the mitochondrial matrix",
+        "Citrate synthase is absent from the liver",
+        "The two carbons it brings in are lost as two CO₂ in the same turn, so there is no net gain of oxaloacetate",
+        "Acetyl CoA is converted directly to glucose by malic enzyme",
+        "Acetyl CoA irreversibly inhibits the TCA cycle"
+      ],
+      "answer": 2,
+      "explanation": "For every acetyl CoA that enters, one oxaloacetate is used and one is regenerated while two CO₂ leave, so the pool of intermediates does not grow. Net gluconeogenesis requires anaplerotic input such as pyruvate carboxylase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q080",
+      "topic": "ETC components",
+      "objective": "L.10.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Oxidative phosphorylation is best defined as:",
+      "options": [
+        "The coupling of electron transport from NADH and FADH₂ to O₂ with the synthesis of ATP from ADP + Pi",
+        "Formation of ATP from a high-energy substrate without the ETC or molecular O₂",
+        "Transfer of phosphate from ATP to glucose",
+        "Oxidation of fatty acids in peroxisomes",
+        "Hydrolysis of ATP to pump protons out of the matrix"
+      ],
+      "answer": 0,
+      "explanation": "In oxidative phosphorylation, energy released as electrons flow to O₂ is captured as a proton gradient and used to phosphorylate ADP. ATP formation without the ETC or O₂ is substrate-level phosphorylation.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q081",
+      "topic": "ETC components",
+      "objective": "L.10.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Substrate-level phosphorylation differs from oxidative phosphorylation because it:",
+      "options": [
+        "Requires a proton gradient across the inner mitochondrial membrane",
+        "Forms ATP (or GTP) directly from a high-energy substrate, without the ETC or molecular O₂",
+        "Requires the activity of cytochrome c oxidase",
+        "Occurs only on the inner mitochondrial membrane",
+        "Produces most of the ATP of aerobic cells"
+      ],
+      "answer": 1,
+      "explanation": "Substrate-level phosphorylation transfers phosphate directly from an energy-rich substrate, as in glycolysis and at succinate thiokinase in the TCA cycle. Most ATP in aerobic cells comes from oxidative phosphorylation, which needs the ETC, O₂ and the proton gradient.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q082",
+      "topic": "ETC components",
+      "objective": "L.10.1",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "In the reaction NADH → NAD⁺ + H⁺ + 2e⁻, NADH is:",
+      "options": [
+        "Reduced, because it loses electrons",
+        "Reduced, because it releases a proton",
+        "Phosphorylated, because it forms NAD⁺",
+        "Oxidized, because it loses electrons",
+        "Neither oxidized nor reduced, because only H⁺ is released"
+      ],
+      "answer": 3,
+      "explanation": "Oxidation is loss of electrons and reduction is gain of electrons. NADH donates its electrons to Complex I and is thereby oxidized to NAD⁺.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q083",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Complex I of the electron transport chain is:",
+      "options": [
+        "Succinate dehydrogenase, containing FAD and Fe–S centres",
+        "The cytochrome bc1 complex, containing cytochromes b and c1",
+        "Cytochrome c oxidase, containing cytochromes a, a₃ and copper",
+        "NADH dehydrogenase, containing FMN and iron–sulfur (Fe–S) centres",
+        "ATP synthase, containing Fo and F1 domains"
+      ],
+      "answer": 3,
+      "explanation": "Complex I accepts electrons from NADH via FMN and passes them through Fe–S centres to coenzyme Q. The other options describe Complexes II, III, IV and V respectively.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q084",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which ETC complex contains cytochromes a and a₃ together with two copper centres (CuA and CuB)?",
+      "options": [
+        "Complex I",
+        "Complex II",
+        "Complex III",
+        "Complex IV",
+        "Complex V (ATP synthase)"
+      ],
+      "answer": 3,
+      "explanation": "Complex IV (cytochrome c oxidase) transfers electrons from cytochrome c to O₂ using cytochromes a/a₃ and CuA/CuB. Complex III contains cytochromes b and c1 but no copper.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q085",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which two components act as mobile electron carriers in the electron transport chain?",
+      "options": [
+        "FMN and FAD",
+        "Cytochrome b and cytochrome c1",
+        "CuA and CuB",
+        "Fe–S proteins and cytochrome a₃",
+        "Coenzyme Q (ubiquinone) and cytochrome c"
+      ],
+      "answer": 4,
+      "explanation": "Lipid-soluble coenzyme Q shuttles electrons within the membrane from Complexes I and II to Complex III, and cytochrome c carries them from Complex III to Complex IV. The other pairs are fixed prosthetic groups inside individual complexes.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q086",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "An infant has an inherited deficiency of Complex I. Electrons from which source can still reach coenzyme Q normally?",
+      "options": [
+        "NADH from malate dehydrogenase",
+        "NADH from isocitrate dehydrogenase",
+        "FADH₂ from succinate dehydrogenase (Complex II)",
+        "NADH from the PDH complex",
+        "NADH from the α-KGDH complex"
+      ],
+      "answer": 2,
+      "explanation": "All NADH must be oxidized by Complex I, whereas FADH₂ from succinate dehydrogenase (Complex II) passes its electrons directly to coenzyme Q, bypassing Complex I. Because Complex I is bypassed, oxidation of each FADH₂ drives the pumping of fewer protons (6) than each NADH (10).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q087",
+      "topic": "ETC components",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Cytochrome c is a small, water-soluble protein loosely attached to the outer face of the inner mitochondrial membrane. If it is lost from the mitochondria, electron flow is interrupted between:",
+      "options": [
+        "Complex I and coenzyme Q",
+        "Complex II and coenzyme Q",
+        "Coenzyme Q and Complex III",
+        "Complex IV and O₂",
+        "Complex III and Complex IV"
+      ],
+      "answer": 4,
+      "explanation": "Electrons from NADH flow NADH → Complex I → CoQ → Complex III → cytochrome c → Complex IV → O₂, so cytochrome c is the link between Complexes III and IV. Coenzyme Q, not cytochrome c, links Complexes I and II to Complex III.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q088",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "How do cytochromes carry electrons in the ETC?",
+      "options": [
+        "By binding and releasing ATP",
+        "By accepting two hydrogen atoms at a time, as coenzyme Q does",
+        "By covalently accepting acetyl groups",
+        "By reversible Fe³⁺ ⇌ Fe²⁺ changes of the iron in their heme group",
+        "By reversible oxidation of a copper ion only"
+      ],
+      "answer": 3,
+      "explanation": "Each cytochrome contains a heme whose iron is alternately reduced (Fe²⁺) and oxidized (Fe³⁺) as it accepts and donates single electrons. Copper centres occur only in Complex IV, alongside cytochromes a and a₃.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q089",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Complex III of the electron transport chain is also known as:",
+      "options": [
+        "Cytochrome c oxidase",
+        "The cytochrome bc1 complex (cytochromes b, c1 and Fe–S)",
+        "NADH dehydrogenase",
+        "Succinate dehydrogenase",
+        "F1Fo-ATPase"
+      ],
+      "answer": 1,
+      "explanation": "Complex III accepts electrons from reduced coenzyme Q and passes them to cytochrome c using cytochromes b and c1 and an Fe–S centre. Cytochrome c oxidase is Complex IV.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q090",
+      "topic": "ETC components",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Which outline of aerobic cellular respiration matches the locations taught in the lecture?",
+      "options": [
+        "Glycolysis in the matrix → TCA cycle in the cytosol → ETC in the outer membrane",
+        "Glycolysis in the cytosol → pyruvate enters mitochondria → acetyl CoA and TCA cycle in the matrix → NADH/FADH₂ oxidized by the ETC in the inner membrane",
+        "Glycolysis in the cytosol → TCA cycle in the intermembrane space → ETC in the outer membrane",
+        "Glycolysis in the cytosol → TCA cycle in the cytosol → ETC in the inner membrane",
+        "Glycolysis in the inner membrane → TCA cycle in the matrix → ETC in the cytosol"
+      ],
+      "answer": 1,
+      "explanation": "Glycolysis is cytosolic; pyruvate is carried into the matrix for PDH and the TCA cycle; and the ETC complexes sit in the inner mitochondrial membrane (cristae), where ½O₂ + 2H⁺ + 2e⁻ → H₂O.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q091",
+      "topic": "ETC components",
+      "objective": "L.10.2",
+      "type": "clinical",
+      "difficulty": 3,
+      "stem": "A child with a rare mitochondrial disorder cannot synthesize adequate coenzyme Q (ubiquinone). Which electron transfers would be impaired?",
+      "options": [
+        "Transfer from both Complex I (NADH) and Complex II (FADH₂) to Complex III",
+        "Only transfer from Complex III to Complex IV",
+        "Only transfer from Complex IV to O₂",
+        "Only transfer from NADH to Complex I",
+        "None, because cytochrome c can replace coenzyme Q"
+      ],
+      "answer": 0,
+      "explanation": "Coenzyme Q collects electrons from both Complex I and Complex II and delivers them to Complex III, so its deficiency impairs oxidation of both NADH and FADH₂. Cytochrome c works downstream, between Complexes III and IV, and cannot substitute.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q092",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "According to Peter Mitchell's chemiosmotic theory, the energy released by electron transport is first conserved as:",
+      "options": [
+        "A proton gradient (proton motive force) across the inner mitochondrial membrane",
+        "A high-energy phosphorylated intermediate of Complex I",
+        "GTP formed in the mitochondrial matrix",
+        "A conformational change stored in cytochrome c",
+        "Heat released into the matrix"
+      ],
+      "answer": 0,
+      "explanation": "Complexes I, III and IV pump H⁺ into the intermembrane space, creating a pH and electrical gradient; H⁺ flowing back through ATP synthase drives ATP synthesis. Heat is the outcome only when the gradient is dissipated, as with uncouplers.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q093",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which complexes pump protons, and how many per pair of electrons, as taught?",
+      "options": [
+        "Complex I: 4 H⁺; Complex II: 4 H⁺; Complex IV: 2 H⁺",
+        "Complex I: 2 H⁺; Complex III: 2 H⁺; Complex IV: 2 H⁺",
+        "Complex I: 4 H⁺; Complex III: 2 H⁺; Complex IV: 4 H⁺",
+        "Complex I: 4 H⁺; Complex III: 4 H⁺; Complex IV: 2 H⁺",
+        "Complex II: 4 H⁺; Complex III: 4 H⁺; Complex IV: 2 H⁺"
+      ],
+      "answer": 3,
+      "explanation": "Complexes I, III and IV pump 4, 4 and 2 protons respectively, giving 10 H⁺ per NADH. Complex II does not pump protons.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q094",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Mitochondria are given succinate as their only substrate, with rotenone present to block Complex I. Which complexes pump protons under these conditions?",
+      "options": [
+        "Complexes I, III and IV",
+        "Complexes II, III and IV",
+        "Complexes III and IV only",
+        "Complex II only",
+        "Complex IV only"
+      ],
+      "answer": 2,
+      "explanation": "Succinate's electrons enter at Complex II, which does not pump protons, and then pass through Complexes III and IV, which pump 4 + 2 = 6 H⁺. Complex I is both bypassed and blocked.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q095",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "During active electron transport, how does the intermembrane space compare with the matrix?",
+      "options": [
+        "It is more alkaline and positively charged",
+        "It is more acidic and negatively charged",
+        "It is more acidic (lower pH) and positively charged",
+        "It has the same pH; only an electrical gradient exists",
+        "It is more alkaline and negatively charged"
+      ],
+      "answer": 2,
+      "explanation": "Pumped protons accumulate in the intermembrane space, lowering its pH and making it positive relative to the matrix, which becomes alkaline and negative. Together, the chemical and electrical components form the proton motive force.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q096",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "How many protons are pumped into the intermembrane space when one NADH is oxidized by the ETC, as taught?",
+      "options": [
+        "4 H⁺",
+        "6 H⁺",
+        "8 H⁺",
+        "10 H⁺",
+        "12 H⁺"
+      ],
+      "answer": 3,
+      "explanation": "Complex I (4) + Complex III (4) + Complex IV (2) = 10 H⁺ per NADH. FADH₂, entering at Complex II, gives only 6.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q097",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Why does oxidation of FADH₂ yield fewer ATP than oxidation of NADH?",
+      "options": [
+        "FADH₂ carries only one electron instead of two",
+        "Its electrons enter at Complex II and bypass Complex I, so only 6 H⁺ are pumped instead of 10",
+        "Its electrons enter at Complex IV and bypass Complex III",
+        "Its electrons are not transferred to O₂",
+        "Complex II consumes ATP to accept electrons from FADH₂"
+      ],
+      "answer": 1,
+      "explanation": "Electrons from FADH₂ reach coenzyme Q via Complex II, which does not pump protons, so only Complexes III and IV pump (4 + 2 = 6 H⁺), giving about 1.5 ATP instead of 2.5. FADH₂ still donates two electrons that end up on O₂.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q098",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "If 4 H⁺ must flow back through ATP synthase to make one ATP, how many ATP are produced from the 6 H⁺ pumped when one FADH₂ is oxidized?",
+      "options": [
+        "1 ATP",
+        "1.5 ATP",
+        "2 ATP",
+        "2.5 ATP",
+        "3 ATP"
+      ],
+      "answer": 1,
+      "explanation": "6 H⁺ ÷ 4 H⁺ per ATP = 1.5 ATP. By the same reasoning NADH gives 10 ÷ 4 = 2.5 ATP.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q099",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "Why must the inner mitochondrial membrane be impermeable to H⁺ for oxidative phosphorylation to work?",
+      "options": [
+        "Protons are substrates consumed by Complex II",
+        "Protons must re-enter the matrix only through ATP synthase, so that the gradient drives ATP formation",
+        "Free leakage of H⁺ would increase ATP synthesis",
+        "ATP synthase is located in the outer membrane",
+        "The outer membrane, not the inner membrane, maintains the gradient"
+      ],
+      "answer": 1,
+      "explanation": "If protons could leak back freely, the proton motive force would dissipate without passing through ATP synthase, which is exactly how uncouplers abolish ATP synthesis. The gradient is across the inner membrane; the outer membrane is freely permeable to small ions.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q100",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The slides mention an OLDER Lippincott convention for ATP yield. What values did it assign per NADH and per FADH₂?",
+      "options": [
+        "3 ATP per NADH and 2 ATP per FADH₂",
+        "2.5 ATP per NADH and 1.5 ATP per FADH₂",
+        "2 ATP per NADH and 1 ATP per FADH₂",
+        "4 ATP per NADH and 3 ATP per FADH₂",
+        "10 ATP per NADH and 6 ATP per FADH₂"
+      ],
+      "answer": 0,
+      "explanation": "The older convention used 3 and 2 ATP; the current convention used in this course (4 H⁺ per ATP) gives 2.5 and 1.5. The values 10 and 6 are the numbers of protons pumped, not ATP.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q101",
+      "topic": "Chemiosmotic & ATP yield",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "In intact, coupled mitochondria, the rate of electron transport and O₂ consumption is mainly controlled by:",
+      "options": [
+        "The concentration of CO₂ in the matrix",
+        "The amount of glucose in the cytosol",
+        "The availability of ADP (and Pi) for ATP synthase",
+        "The rate of cytochrome c synthesis",
+        "The permeability of the outer mitochondrial membrane"
+      ],
+      "answer": 2,
+      "explanation": "Because electron transport and phosphorylation are tightly coupled, the ETC runs only as fast as protons can re-enter through ATP synthase, which needs ADP + Pi (respiratory control). Uncouplers remove this control, so O₂ consumption rises even without ADP.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q102",
+      "topic": "ATP synthase",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which description of ATP synthase (Complex V) is correct?",
+      "options": [
+        "Fo spans the inner membrane and forms the H⁺ channel (c-ring); F1 projects into the matrix and carries the catalytic activity",
+        "F1 spans the inner membrane and forms the H⁺ channel; Fo projects into the matrix and carries the catalytic activity",
+        "It is a single polypeptide located in the outer mitochondrial membrane",
+        "It contains cytochromes a and a₃ with copper centres",
+        "It contains FMN and iron–sulfur centres"
+      ],
+      "answer": 0,
+      "explanation": "ATP synthase has a membrane Fo domain (proton channel with c-rings) and an extra-membranous F1 domain in the matrix (α, β, γ, δ, ε subunits) that makes ATP. Cytochromes with copper describe Complex IV, and FMN with Fe–S describes Complex I.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q103",
+      "topic": "ATP synthase",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "The catalytic (ATP-synthesizing) activity of ATP synthase resides in:",
+      "options": [
+        "The Fo c-ring within the membrane",
+        "The intermembrane-space side of Fo",
+        "Cytochrome c bound to the complex",
+        "The F1 domain facing the matrix",
+        "The outer mitochondrial membrane"
+      ],
+      "answer": 3,
+      "explanation": "F1, the extra-membranous matrix domain, contains the catalytic activity that joins ADP and Pi. Fo is the proton channel that powers it.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q104",
+      "topic": "ATP synthase",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which subunits make up the F1 domain of ATP synthase, as taught?",
+      "options": [
+        "E1, E2 and E3",
+        "Cytochromes b and c1 with an Fe–S protein",
+        "Cytochromes a and a₃ with CuA and CuB",
+        "α, β, γ, δ and ε",
+        "FMN and Fe–S proteins"
+      ],
+      "answer": 3,
+      "explanation": "F1 is a multisubunit head (α, β, γ, δ, ε) projecting into the matrix. E1–E3 are the enzymes of the PDH-type complexes, and the cytochrome sets belong to Complexes III and IV.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q105",
+      "topic": "ATP synthase",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 1,
+      "stem": "What directly drives ATP synthesis by ATP synthase?",
+      "options": [
+        "Flow of H⁺ from the matrix out to the intermembrane space through Fo",
+        "Direct transfer of electrons from cytochrome c to F1",
+        "Hydrolysis of GTP produced by the TCA cycle",
+        "Influx of Na⁺ ions into the matrix",
+        "Flow of H⁺ from the intermembrane space back into the matrix through Fo"
+      ],
+      "answer": 4,
+      "explanation": "Protons move down their electrochemical gradient, from the acidic intermembrane space into the matrix, through the Fo channel, and F1 uses this energy to make ATP. Pumping H⁺ out of the matrix is the job of Complexes I, III and IV.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q106",
+      "topic": "ATP synthase",
+      "objective": "L.10.3",
+      "type": "application",
+      "difficulty": 2,
+      "stem": "How is the energy of proton flow through Fo converted into ATP?",
+      "options": [
+        "Protons are incorporated directly into the ATP molecule",
+        "Electrons flowing through F1 reduce ADP to ATP",
+        "Proton flow rotates the Fo c-ring, and the rotation transmitted to F1 causes conformational changes that join ADP and Pi",
+        "Cytochrome c binds F1 and donates a phosphate group",
+        "F1 pumps protons out of the matrix, releasing ATP"
+      ],
+      "answer": 2,
+      "explanation": "ATP synthase is a rotary machine: H⁺ entering through the c-ring makes it turn, and the rotating central stalk changes the shape of the catalytic sites in F1 so that ATP is formed and released. No electrons pass through ATP synthase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q107",
+      "topic": "ATP synthase",
+      "objective": "L.10.2",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "In the numbering of the oxidative phosphorylation system, ATP synthase (F1Fo-ATPase) is referred to as:",
+      "options": [
+        "Complex I",
+        "Complex II",
+        "Complex III",
+        "Complex IV",
+        "Complex V"
+      ],
+      "answer": 4,
+      "explanation": "ATP synthase is often called Complex V, although it does not transfer electrons; it uses the proton gradient produced by Complexes I, III and IV. Complex IV is cytochrome c oxidase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q108",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "A gardener accidentally ingests a rotenone-based pesticide. Rotenone belongs to the same inhibitor group (acting at the same ETC site) as:",
+      "options": [
+        "Antimycin A and dimercaprol",
+        "Cyanide and hydrogen sulfide",
+        "Oligomycin",
+        "2,4-Dinitrophenol and salicylate",
+        "Amobarbital and piericidin"
+      ],
+      "answer": 4,
+      "explanation": "Rotenone, amobarbital and piericidin all inhibit Complex I, blocking electron transfer from NADH to coenzyme Q. Antimycin A and BAL act at Complex III, cyanide and H₂S at Complex IV, oligomycin on ATP synthase, and DNP and salicylate are uncouplers.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q109",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Antimycin A blocks electron flow at:",
+      "options": [
+        "Complex I",
+        "Complex II",
+        "Complex III",
+        "Complex IV",
+        "ATP synthase (Fo)"
+      ],
+      "answer": 2,
+      "explanation": "Antimycin A inhibits Complex III (cytochrome bc1), as does dimercaprol (BAL) as taught. Oligomycin is the agent that acts on the Fo domain of ATP synthase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q110",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A firefighter rescued from a burning building full of smouldering plastics has severe lactic acidosis, and his venous blood is unusually bright red with an abnormally high O₂ content. Which ETC component is most likely inhibited?",
+      "options": [
+        "Complex I (NADH dehydrogenase)",
+        "Complex II (succinate dehydrogenase)",
+        "Complex III (cytochrome bc1)",
+        "Complex IV (cytochrome c oxidase)",
+        "ATP synthase (Fo domain)"
+      ],
+      "answer": 3,
+      "explanation": "Smoke from burning plastics contains cyanide (and CO), which bind Complex IV and stop electron transfer to O₂; tissues cannot use O₂, so venous blood stays oxygenated and ATP must come from glycolysis, producing lactate. Complex I and III inhibitors such as rotenone and antimycin A are not smoke toxins.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q111",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A sewer worker collapses within minutes of exposure to a gas that smells of rotten eggs. This gas inhibits the same ETC component as:",
+      "options": [
+        "Rotenone",
+        "Antimycin A",
+        "Oligomycin",
+        "2,4-Dinitrophenol",
+        "Cyanide"
+      ],
+      "answer": 4,
+      "explanation": "Hydrogen sulfide (H₂S), like cyanide and CO, inhibits Complex IV (cytochrome c oxidase). Rotenone acts on Complex I, antimycin A on Complex III, oligomycin on ATP synthase, and DNP is an uncoupler.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q112",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Dimercaprol (British anti-Lewisite, BAL), as classified in this course, inhibits:",
+      "options": [
+        "Complex I (NADH dehydrogenase)",
+        "Complex III (cytochrome bc1 complex)",
+        "Complex IV (cytochrome c oxidase)",
+        "The Fo domain of ATP synthase",
+        "Nothing in the ETC; it acts as an uncoupler"
+      ],
+      "answer": 1,
+      "explanation": "In the lecture's classification, BAL is listed with antimycin A as a Complex III inhibitor. Rotenone and amobarbital act at Complex I, and cyanide, CO and H₂S at Complex IV.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q113",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Oligomycin inhibits oxidative phosphorylation by:",
+      "options": [
+        "Binding cytochrome a₃ of Complex IV",
+        "Making the inner membrane permeable to H⁺",
+        "Blocking electron transfer from Complex I to coenzyme Q",
+        "Inhibiting cytochrome b of Complex III",
+        "Binding the Fo domain of ATP synthase and blocking H⁺ re-entry into the matrix"
+      ],
+      "answer": 4,
+      "explanation": "Oligomycin closes the proton channel of Fo, so phosphorylation stops; electron transport then also slows because the proton gradient cannot be discharged. Making the membrane leaky to H⁺ is the action of uncouplers.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q114",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Isolated mitochondria oxidizing malate (an NADH-generating substrate) are treated with rotenone, and O₂ consumption stops. Which addition would restore O₂ consumption and some ATP synthesis?",
+      "options": [
+        "More malate",
+        "Succinate",
+        "Oligomycin",
+        "Cyanide",
+        "Antimycin A"
+      ],
+      "answer": 1,
+      "explanation": "Rotenone blocks Complex I, but succinate donates electrons via Complex II (FADH₂) to coenzyme Q, bypassing the block, so about 1.5 ATP per FADH₂ can still be made. Antimycin A and cyanide block downstream of coenzyme Q, and oligomycin blocks ATP synthase.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q115",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Mitochondria are treated with oligomycin, and both ATP synthesis and O₂ consumption fall. 2,4-Dinitrophenol (DNP) is then added. What happens?",
+      "options": [
+        "Both O₂ consumption and ATP synthesis resume",
+        "Neither O₂ consumption nor ATP synthesis changes",
+        "ATP synthesis resumes, but O₂ consumption stays inhibited",
+        "O₂ consumption falls to zero and ATP synthesis increases",
+        "O₂ consumption resumes, but ATP synthesis remains inhibited"
+      ],
+      "answer": 4,
+      "explanation": "With ATP synthase blocked, the gradient builds up and slows electron transport; DNP lets protons leak back across the membrane, so electron transport and O₂ use restart. ATP synthase is still blocked by oligomycin, so no ATP is made and the energy is lost as heat.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q116",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "In mitochondria treated with antimycin A, which carriers become fully reduced?",
+      "options": [
+        "NADH, the Complex I centres and coenzyme Q, which lie upstream of Complex III",
+        "Cytochrome c and Complex IV, which lie downstream of Complex III",
+        "None; all carriers become fully oxidized",
+        "Only cytochrome a₃",
+        "Only the F1 domain of ATP synthase"
+      ],
+      "answer": 0,
+      "explanation": "Carriers before a block cannot pass on their electrons and stay reduced, while carriers after the block give up their electrons to O₂ and become oxidized. Antimycin A blocks Complex III, so coenzyme Q and everything upstream are reduced.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q117",
+      "topic": "Inhibitors",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A patient takes an overdose of amobarbital, a barbiturate. At the mitochondrial level, which step of electron transport does this drug directly block?",
+      "options": [
+        "Transfer of electrons from cytochrome c to O₂ at Complex IV",
+        "Transfer of electrons from Complex I to coenzyme Q",
+        "Transfer of electrons from coenzyme Q to cytochrome c at Complex III",
+        "Transfer of electrons from FADH₂ at Complex II",
+        "Re-entry of H⁺ through the Fo domain of ATP synthase"
+      ],
+      "answer": 1,
+      "explanation": "Amobarbital, like rotenone and piericidin, is a Complex I inhibitor, so NADH-linked oxidation stops while succinate (FADH₂) can still be oxidized via Complex II. Cyanide acts at Complex IV and oligomycin at Fo.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q118",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Uncouplers of oxidative phosphorylation act by:",
+      "options": [
+        "Making the inner mitochondrial membrane permeable to H⁺, so electron transport continues without ATP synthesis",
+        "Blocking electron transfer at Complex IV",
+        "Binding the Fo domain and preventing H⁺ re-entry",
+        "Inhibiting the PDH complex",
+        "Blocking electron transfer from Complex I to coenzyme Q"
+      ],
+      "answer": 0,
+      "explanation": "Uncouplers let protons leak back into the matrix without passing through ATP synthase, abolishing the proton motive force; electron flow continues but the energy is lost as heat. Blocking Fo is oligomycin's action.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q119",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "Which of the following is an uncoupler of oxidative phosphorylation?",
+      "options": [
+        "Rotenone",
+        "Antimycin A",
+        "2,4-Dinitrophenol",
+        "Oligomycin",
+        "Cyanide"
+      ],
+      "answer": 2,
+      "explanation": "2,4-DNP is a lipid-soluble weak acid that carries protons across the inner membrane, dissipating the gradient. The others are site-specific inhibitors: rotenone (Complex I), antimycin A (III), cyanide (IV) and oligomycin (ATP synthase).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q120",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 2,
+      "stem": "Which of the following is NOT an uncoupler?",
+      "options": [
+        "2,4-Dinitrophenol",
+        "Oligomycin",
+        "Dicumarol",
+        "Salicylate (high dose)",
+        "Thermogenin (UCP1)"
+      ],
+      "answer": 1,
+      "explanation": "Oligomycin inhibits ATP synthase by blocking Fo, so it stops ATP synthesis and, secondarily, electron transport. DNP, dicumarol, high-dose salicylate and the uncoupling protein thermogenin all dissipate the proton gradient.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q121",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A 22-year-old man taking an illicit 'fat-burner' containing 2,4-dinitrophenol presents with hyperthermia, profuse sweating and tachycardia. Which set of mitochondrial changes is expected?",
+      "options": [
+        "↓ O₂ consumption, ↓ ATP synthesis, ↓ heat production",
+        "↑ O₂ consumption, ↓ ATP synthesis, ↑ heat production",
+        "↑ O₂ consumption, ↑ ATP synthesis, ↓ heat production",
+        "↓ O₂ consumption, ↑ ATP synthesis, ↑ heat production",
+        "No change in O₂ consumption, ↑ ATP synthesis, no change in heat"
+      ],
+      "answer": 1,
+      "explanation": "DNP uncouples: electron transport speeds up (more O₂ used) as the cell tries to restore the gradient, but protons bypass ATP synthase, so ATP falls and the energy is released as heat, causing hyperthermia. Decreased O₂ consumption would point to an ETC inhibitor instead.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q122",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 1,
+      "stem": "A newborn in a cool delivery room maintains body temperature without shivering. Which protein is mainly responsible?",
+      "options": [
+        "Cytochrome c oxidase in skeletal muscle",
+        "ATP synthase in white adipose tissue",
+        "Thermogenin (UCP1) in brown adipose tissue",
+        "Haemoglobin in erythrocytes",
+        "Myosin ATPase in skeletal muscle"
+      ],
+      "answer": 2,
+      "explanation": "Thermogenin is a physiological uncoupler: it forms a proton channel in the inner membrane of brown fat mitochondria, so the energy of electron transport is released as heat (non-shivering thermogenesis) instead of being used for ATP synthesis.",
+      "origin": "Adapted from OMC-tagged Studocu question bank (essay prompt converted to MCQ; unverified student upload)",
+      "sourceUrl": "https://www.studocu.com/row/document/oman-medical-college/biochemistry/biochemistry-questions-q-bank/17414188"
+    },
+    {
+      "id": "q123",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "clinical",
+      "difficulty": 2,
+      "stem": "A child who ingested a large quantity of aspirin develops fever and rapid breathing. Which mechanism best explains the fever?",
+      "options": [
+        "Salicylate inhibits Complex IV in the same way as cyanide",
+        "High-dose salicylate uncouples oxidative phosphorylation, so energy is released as heat",
+        "Salicylate increases ATP synthesis by ATP synthase",
+        "Salicylate blocks the Fo domain in the same way as oligomycin",
+        "Salicylate stimulates thermogenin production in white adipose tissue"
+      ],
+      "answer": 1,
+      "explanation": "At high doses salicylate acts as an uncoupler, making the inner membrane leaky to H⁺; electron transport and O₂ use increase while ATP falls, and the energy appears as heat. It is not a site-specific ETC or ATP synthase inhibitor.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q124",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "recall",
+      "difficulty": 1,
+      "stem": "In the presence of an uncoupler, the energy released by electron transport is mainly:",
+      "options": [
+        "Released as heat",
+        "Stored as ATP",
+        "Stored as GTP",
+        "Stored as NADPH",
+        "Stored as a larger proton gradient"
+      ],
+      "answer": 0,
+      "explanation": "Because the proton gradient collapses, no proton motive force is available for ATP synthase, and the free energy of electron transport is dissipated as heat (thermogenesis).",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    },
+    {
+      "id": "q125",
+      "topic": "Uncouplers",
+      "objective": "L.10.4",
+      "type": "application",
+      "difficulty": 3,
+      "stem": "Which statement correctly distinguishes an uncoupler such as DNP from an ETC inhibitor such as cyanide?",
+      "options": [
+        "Both increase O₂ consumption",
+        "Both stop electron flow completely",
+        "An uncoupler increases O₂ consumption while abolishing ATP synthesis; cyanide stops both O₂ consumption and ATP synthesis",
+        "An uncoupler stops O₂ consumption, whereas cyanide increases it",
+        "An uncoupler increases ATP synthesis, whereas cyanide decreases it"
+      ],
+      "answer": 2,
+      "explanation": "Uncouplers leave the ETC running, often faster, but disconnect it from ATP synthesis; site-specific inhibitors physically block electron flow, so O₂ is no longer reduced and no gradient forms.",
+      "origin": "Exam-style (original)",
+      "sourceUrl": ""
+    }
+  ]
+}

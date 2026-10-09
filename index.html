@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cellular Respiration — PDH · TCA · Oxidative Phosphorylation</title>
+<meta name="description" content="Interactive lecture: pyruvate dehydrogenase complex, TCA cycle, electron transport chain and oxidative phosphorylation.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/widgets.css">
+<link rel="stylesheet" href="css/widgets2.css">
+<link rel="stylesheet" href="css/widgets3.css">
+<script type="importmap">
+{ "imports": {
+  "three": "./vendor/three/three.module.js",
+  "three/addons/": "./vendor/three/addons/"
+} }
+</script>
+</head>
+<body>
+<div id="viewport">
+<div id="stage">
+  <canvas id="gl" width="1920" height="1080"></canvas>
+  <div id="labels"></div>
+  <div id="slides">
+
+<!-- ═══════════════════════════ OPENING ═══════════════════════════ -->
+
+<section class="slide layout-hero" data-key="title" data-scene="mito" data-view="460" data-title="Cellular respiration">
+  <div class="hero">
+    <p class="eyebrow rv">Biochemistry · College of Medicine &amp; Health Sciences</p>
+    <h1 class="hero-title rv">Cellular<br>Respiration</h1>
+    <p class="hero-sub rv">The bridge. The cycle. <span class="grad-3">The power plant.</span></p>
+    <div class="tags rv"><span>PDH complex</span><span>TCA cycle</span><span>ETC &amp; oxidative phosphorylation</span></div>
+  </div>
+  <p class="corner-hint rv">Press <kbd>→</kbd> to begin · <kbd>?</kbd> for shortcuts</p>
+</section>
+
+<section class="slide" data-key="roadmap" data-title="Roadmap">
+  <header class="head">
+    <p class="eyebrow rv">Three chapters · one goal</p>
+    <h2 class="rv">From glucose to <span class="grad-atp">ATP</span></h2>
+  </header>
+  <div class="chapters">
+    <article class="chapter c1 rv" data-tip="obj-1" data-goto="ch1">
+      <span class="ch-num">01</span>
+      <div class="ch-icon" data-icon="bridge"></div>
+      <h3>The Bridge</h3>
+      <p>PDH complex</p>
+      <span class="ch-tag">L.12</span>
+    </article>
+    <article class="chapter c2 rv" data-tip="obj-2" data-goto="ch2">
+      <span class="ch-num">02</span>
+      <div class="ch-icon" data-icon="cycle"></div>
+      <h3>The Cycle</h3>
+      <p>TCA cycle</p>
+      <span class="ch-tag">L.13</span>
+    </article>
+    <article class="chapter c3 rv" data-tip="obj-3" data-goto="ch3">
+      <span class="ch-num">03</span>
+      <div class="ch-icon" data-icon="plant"></div>
+      <h3>The Power Plant</h3>
+      <p>ETC &amp; oxidative phosphorylation</p>
+      <span class="ch-tag">L.10</span>
+    </article>
+  </div>
+  <p class="foot-hint rv">Hover a chapter for its learning outcomes</p>
+</section>
+
+<section class="slide" data-key="journey" data-steps="4" data-title="The big picture">
+  <header class="head">
+    <p class="eyebrow rv">The big picture</p>
+    <h2 class="rv">The journey of one glucose</h2>
+  </header>
+  <div class="widget rv" data-widget="journey"></div>
+</section>
+
+<!-- ═══════════════════════════ 01 · THE BRIDGE ═══════════════════════════ -->
+
+<section class="slide layout-divider s1" data-key="ch1" data-section="1" data-scene="bridge" data-view="right" data-title="01 · The Bridge">
+  <div class="divider">
+    <span class="div-num grad-1 rv">01</span>
+    <h1 class="rv">The Bridge</h1>
+    <p class="rv">Pyruvate dehydrogenase complex</p>
+  </div>
+</section>
+
+<section class="slide layout-split s1" data-key="pdh-background" data-section="1" data-scene="bridge" data-view="right" data-steps="4" data-title="Why a bridge?">
+  <div class="col-text">
+    <p class="eyebrow grad-1 rv">Background</p>
+    <h2 class="rv">Pyruvate needs<br>a bridge</h2>
+    <ul class="bullets">
+      <li data-build="1">With O<sub>2</sub>, pyruvate heads to the <b>TCA cycle</b></li>
+      <li data-build="2">Entry ticket: <b>acetyl CoA</b></li>
+      <li data-build="3">Glycolysis: <b>cytosol</b><br>PDH: <b>mitochondrial matrix</b></li>
+      <li data-build="4">So pyruvate must <b>enter the matrix</b> first</li>
+    </ul>
+  </div>
+</section>
+
+<section class="slide layout-split s1" data-key="pdh-complex" data-section="1" data-scene="pdh" data-view="right" data-steps="4" data-title="PDH complex">
+  <div class="col-text">
+    <p class="eyebrow grad-1 rv">3 enzymes · 5 coenzymes</p>
+    <h2 class="rv">PDH complex</h2>
+    <ul class="bullets">
+      <li data-build="1">Multi-enzyme complex</li>
+      <li data-build="2">Oxidative decarboxylation</li>
+      <li data-build="3">Pyruvate <span class="dim">(3C)</span> → acetyl CoA <span class="dim">(2C)</span></li>
+      <li data-build="4">Releases <span class="t-co2">CO<sub>2</sub></span> + <span class="t-nadh">NADH</span></li>
+    </ul>
+    <div class="chips rv">
+      <span class="chip e1" data-tip="E1" data-hl="E1">E1 · Decarboxylase</span>
+      <span class="chip e2" data-tip="E2" data-hl="E2">E2 · Transacetylase</span>
+      <span class="chip e3" data-tip="E3" data-hl="E3">E3 · Dehydrogenase</span>
+    </div>
+  </div>
+  <p class="scene-hint rv">Schematic model · drag to rotate · hover to explore</p>
+</section>
+
+<section class="slide s1" data-key="pdh-coenzymes" data-section="1" data-steps="3" data-title="5 coenzymes">
+  <header class="head">
+    <p class="eyebrow grad-1 rv">5 coenzymes · the mnemonic</p>
+    <h2 class="rv mnemonic"><b>T</b>ender <b>L</b>oving <b>C</b>are <b>F</b>or <b>N</b>obody</h2>
+  </header>
+  <div class="widget rv" data-widget="pdhline"></div>
+</section>
+
+<section class="slide s1" data-key="pdh-where" data-section="1" data-steps="2" data-title="Where is PDH?">
+  <header class="head">
+    <p class="eyebrow grad-1 rv">Localization · distribution</p>
+    <h2 class="rv">Where is PDH?</h2>
+  </header>
+  <div class="widget rv" data-widget="where"></div>
+</section>
+
+<section class="slide s1" data-key="pdh-analogues" data-section="1" data-steps="1" data-title="PDH analogues">
+  <header class="head">
+    <p class="eyebrow grad-1 rv">PDH complex analogues</p>
+    <h2 class="rv">Same machinery, different jobs</h2>
+  </header>
+  <div class="widget rv" data-widget="analogues"></div>
+</section>
+
+<section class="slide layout-split wide-visual s1" data-key="pdh-deficiency" data-section="1" data-steps="3" data-title="PDH deficiency">
+  <div class="col-text">
+    <p class="eyebrow grad-1 rv">Clinical</p>
+    <h2 class="rv">PDH deficiency</h2>
+    <ul class="bullets">
+      <li data-build="1">↑ Pyruvate, lactate, alanine</li>
+      <li data-build="2" data-tip="lactic">Congenital <b>lactic acidosis</b></li>
+      <li data-build="3" data-tip="neuro">Progressive <b>neurological</b> signs</li>
+    </ul>
+  </div>
+  <div class="col-visual widget rv" data-widget="deficiency"></div>
+</section>
+
+<section class="slide layout-split wide-visual s1" data-key="thiamine" data-section="1" data-steps="2" data-title="Thiamine deficiency">
+  <div class="col-text">
+    <p class="eyebrow grad-1 rv">Clinical · vitamin B<sub>1</sub></p>
+    <h2 class="rv">Thiamine deficiency</h2>
+    <ul class="bullets">
+      <li data-build="1" data-tip="tpp-hit">PDH &amp; α-keto acid DH complexes fail</li>
+      <li data-build="2">Energy failure in the <b>hungriest</b> tissues</li>
+    </ul>
+  </div>
+  <div class="col-visual widget rv" data-widget="thiamine"></div>
+</section>
+
+<section class="slide s1" data-key="thiamine-why" data-section="1" data-steps="6" data-title="Thiamine before glucose">
+  <header class="head">
+    <p class="eyebrow grad-1 rv">Critical thinking</p>
+    <h2 class="rv">Thiamine <span class="grad-1">before</span> glucose. Why?</h2>
+  </header>
+  <div class="widget rv" data-widget="thiaminewhy"></div>
+</section>
+
+<!-- ═══════════════════════════ 02 · THE CYCLE ═══════════════════════════ -->
+
+<section class="slide layout-divider s2" data-key="ch2" data-section="2" data-scene="citrate" data-view="right" data-title="02 · The Cycle">
+  <div class="divider">
+    <span class="div-num grad-2 rv">02</span>
+    <h1 class="rv">The Cycle</h1>
+    <p class="rv">Citric acid cycle · TCA cycle · Krebs cycle</p>
+  </div>
+  <p class="scene-hint rv" data-tip="citrate">Citrate — the first product of the cycle · hover</p>
+</section>
+
+<section class="slide layout-split wide-visual s2" data-key="tca-background" data-section="2" data-steps="4" data-title="The central hub">
+  <div class="col-text">
+    <p class="eyebrow grad-2 rv">Background</p>
+    <h2 class="rv">The central hub</h2>
+    <ul class="bullets">
+      <li data-build="1">Oxidizes acetyl CoA → CO<sub>2</sub></li>
+      <li data-build="2">Stage 2 of aerobic respiration · <b>matrix</b></li>
+      <li data-build="3" data-tip="amphibolic">Amphibolic: <b>breaks down</b> &amp; <b>builds</b></li>
+      <li data-build="4">Final common pathway for <b>all fuels</b></li>
+    </ul>
+  </div>
+  <div class="col-visual widget rv" data-widget="fuels"></div>
+</section>
+
+<section class="slide layout-split s2" data-key="tca-cycle" data-section="2" data-scene="tca" data-view="right" data-steps="9" data-title="The eight steps">
+  <div class="col-text">
+    <p class="eyebrow grad-2 rv">Steps · L.13.1</p>
+    <h2 class="rv">One turn,<br>eight steps</h2>
+    <div class="widget" data-widget="tcacaption"></div>
+  </div>
+  <p class="scene-hint rv">Drag to rotate · hover an enzyme</p>
+</section>
+
+<section class="slide s2" data-key="tca-table" data-section="2" data-steps="8" data-title="Fill in the cycle">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-2 rv">Interactive</p>
+      <h2 class="rv">Fill in the cycle</h2>
+    </div>
+    <p class="head-note rv"><span class="swatch red"></span> control points · click any <b>?</b></p>
+  </header>
+  <div class="widget rv" data-widget="tcatable"></div>
+</section>
+
+<section class="slide s2" data-key="tca-energy" data-section="2" data-steps="4" data-title="Energy per turn">
+  <header class="head">
+    <p class="eyebrow grad-2 rv">Energetics</p>
+    <h2 class="rv">One turn = <span class="grad-atp" data-count-target="energy-total">10</span> ATP</h2>
+  </header>
+  <div class="widget rv" data-widget="energy"></div>
+</section>
+
+<section class="slide s2" data-key="glucose-total" data-section="2" data-steps="5" data-title="ATP per glucose">
+  <header class="head">
+    <p class="eyebrow grad-2 rv">Critical thinking</p>
+    <h2 class="rv">One glucose = how many ATP?</h2>
+  </header>
+  <div class="widget rv" data-widget="glucose"></div>
+</section>
+
+<section class="slide s2" data-key="tca-regulation" data-section="2" data-steps="3" data-title="Regulation">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-2 rv">Regulation</p>
+      <h2 class="rv">Three control points</h2>
+    </div>
+  </header>
+  <div class="widget rv" data-widget="regulation"></div>
+</section>
+
+<section class="slide s2" data-key="q-idh" data-section="2" data-steps="1" data-title="Question: IDH">
+  <div class="widget rv" data-widget="mcq" data-q="idh"></div>
+</section>
+
+<section class="slide s2" data-key="amphibolic" data-section="2" data-steps="2" data-title="Amphibolic hub">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-2 rv">L.13.2 · L.13.3</p>
+      <h2 class="rv">Amphibolic hub</h2>
+    </div>
+  </header>
+  <div class="widget rv" data-widget="amphibolic"></div>
+</section>
+
+<section class="slide s2" data-key="q-infant" data-section="2" data-steps="1" data-title="Question: the infant">
+  <div class="widget rv" data-widget="mcq" data-q="infant"></div>
+</section>
+
+<!-- ═══════════════════════════ 03 · THE POWER PLANT ═══════════════════════════ -->
+
+<section class="slide layout-divider s3" data-key="ch3" data-section="3" data-scene="mito" data-view="right" data-title="03 · The Power Plant">
+  <div class="divider">
+    <span class="div-num grad-3 rv">03</span>
+    <h1 class="rv">The Power Plant</h1>
+    <p class="rv">Electron transport chain &amp; oxidative phosphorylation</p>
+  </div>
+</section>
+
+<section class="slide s3" data-key="definitions" data-section="3" data-steps="4" data-title="Four terms">
+  <header class="head">
+    <p class="eyebrow grad-3 rv">Vocabulary</p>
+    <h2 class="rv">Four terms to own</h2>
+  </header>
+  <div class="widget rv" data-widget="definitions"></div>
+</section>
+
+<section class="slide layout-split s3" data-key="etc-where" data-section="3" data-scene="mito" data-view="right" data-steps="3" data-title="Electron transport chain">
+  <div class="col-text">
+    <p class="eyebrow grad-3 rv">L.10.2 · Location</p>
+    <h2 class="rv">Electron<br>transport chain</h2>
+    <ul class="bullets">
+      <li data-build="1">Protein complexes in the <b>inner membrane</b></li>
+      <li data-build="2">Carries e<sup>−</sup>: NADH, FADH<sub>2</sub> → O<sub>2</sub></li>
+      <li data-build="3">Released energy → <b>ATP</b></li>
+    </ul>
+  </div>
+  <p class="scene-hint rv">Hover a membrane · drag to rotate</p>
+</section>
+
+<section class="slide s3" data-key="oxphos-flow" data-section="3" data-steps="4" data-title="Oxidative phosphorylation">
+  <header class="head">
+    <p class="eyebrow grad-3 rv">L.10.1 · Definition</p>
+    <h2 class="rv">Oxidative phosphorylation</h2>
+  </header>
+  <div class="widget rv" data-widget="oxflow"></div>
+</section>
+
+<section class="slide layout-split s3" data-key="etc-components" data-section="3" data-scene="etc" data-view="right-wide" data-steps="6" data-title="ETC components">
+  <div class="col-text narrow">
+    <p class="eyebrow grad-3 rv">L.10.2 · Components</p>
+    <h2 class="rv">Meet the chain</h2>
+    <ol class="complex-list">
+      <li data-build="1" data-tip="C1" data-hl="C1"><span class="cx c1">I</span><span>NADH dehydrogenase</span></li>
+      <li data-build="2" data-tip="C2" data-hl="C2"><span class="cx c2">II</span><span>Succinate dehydrogenase</span></li>
+      <li data-build="3" data-tip="C3" data-hl="C3"><span class="cx c3">III</span><span>Cytochrome bc<sub>1</sub></span></li>
+      <li data-build="4" data-tip="C4" data-hl="C4"><span class="cx c4">IV</span><span>Cytochrome c oxidase</span></li>
+      <li data-build="5" data-tip="mobile" data-hl="mobile"><span class="cx cm">Q · c</span><span>Mobile carriers</span></li>
+      <li data-build="6" data-tip="C5" data-hl="C5"><span class="cx c5">V</span><span>ATP synthase</span></li>
+    </ol>
+  </div>
+</section>
+
+<section class="slide layout-split s3" data-key="chemiosmotic" data-section="3" data-scene="etc" data-view="right-wide" data-steps="4" data-title="Chemiosmotic theory">
+  <div class="col-text narrow">
+    <p class="eyebrow grad-3 rv" data-tip="mitchell">Chemiosmotic theory · Peter Mitchell</p>
+    <h2 class="rv">Protons do<br>the work</h2>
+    <ul class="bullets small">
+      <li data-build="1">e<sup>−</sup> flow down the chain</li>
+      <li data-build="2">…pumps <span class="t-h">H<sup>+</sup></span> out: <b>4 · 4 · 2</b></li>
+      <li data-build="3" data-tip="gradient">Gradient: ↓pH + charge outside</li>
+      <li data-build="4"><span class="t-h">H<sup>+</sup></span> flow back → <span class="t-atp">ATP</span></li>
+    </ul>
+    <div class="seg rv" data-control="entry">
+      <button class="on" data-val="nadh">NADH</button><button data-val="fadh">FADH<sub>2</sub></button>
+    </div>
+  </div>
+</section>
+
+<section class="slide s3" data-key="atp-yield" data-section="3" data-steps="3" data-title="ATP yield">
+  <header class="head">
+    <p class="eyebrow grad-3 rv">Energetics</p>
+    <h2 class="rv">ATP per NADH &amp; FADH<sub>2</sub></h2>
+  </header>
+  <div class="widget rv" data-widget="yield"></div>
+</section>
+
+<section class="slide layout-split s3" data-key="atp-synthase" data-section="3" data-scene="synthase" data-view="right" data-steps="3" data-title="ATP synthase">
+  <div class="col-text">
+    <p class="eyebrow grad-3 rv">Complex V · F<sub>1</sub>F<sub>o</sub>-ATPase</p>
+    <h2 class="rv">ATP synthase</h2>
+    <ul class="bullets">
+      <li data-build="1" data-tip="F0" data-hl="F0"><b>F<sub>o</sub></b> · membrane · H<sup>+</sup> channel + c-ring</li>
+      <li data-build="2" data-tip="F1" data-hl="F1"><b>F<sub>1</sub></b> · matrix · α β γ δ ε · catalytic</li>
+      <li data-build="3">H<sup>+</sup> flow spins the rotor → <span class="t-atp">ATP</span></li>
+    </ul>
+  </div>
+  <p class="scene-hint rv">Hover a subunit · drag to rotate</p>
+</section>
+
+<section class="slide s3" data-key="inhibitor-classes" data-section="3" data-steps="3" data-title="Inhibitor classes">
+  <header class="head">
+    <p class="eyebrow grad-3 rv">L.10.4</p>
+    <h2 class="rv">Three ways to stop the plant</h2>
+  </header>
+  <div class="widget rv" data-widget="classes"></div>
+</section>
+
+<section class="slide s3" data-key="site-inhibitors" data-section="3" data-steps="3" data-title="Site-specific inhibitors">
+  <header class="head row">
+    <div>
+      <p class="eyebrow grad-3 rv">1 · Site-specific inhibitors</p>
+      <h2 class="rv">Block the chain</h2>
+    </div>
+    <p class="head-note rv">Click an inhibitor</p>
+  </header>
+  <div class="widget rv" data-widget="chain"></div>
+</section>
+
+<section class="slide layout-split s3" data-key="oligomycin" data-section="3" data-scene="synthase" data-view="right" data-steps="2" data-title="Oligomycin">
+  <div class="col-text">
+    <p class="eyebrow grad-3 rv">2 · ATP synthase inhibitor</p>
+    <h2 class="rv">Oligomycin</h2>
+    <ul class="bullets">
+      <li data-build="1">Binds the <b>F<sub>o</sub></b> domain</li>
+      <li data-build="1">Blocks H<sup>+</sup> re-entry to the matrix</li>
+      <li data-build="2" data-tip="oligo-coupling">ATP synthesis <b>stops</b></li>
+    </ul>
+    <div class="seg rv" data-control="oligo">
+      <button class="on" data-val="off">Normal</button><button data-val="on">+ Oligomycin</button>
+    </div>
+  </div>
+</section>
+
+<section class="slide layout-split s3" data-key="uncouplers" data-section="3" data-scene="etc" data-view="right-wide" data-steps="3" data-title="Uncouplers">
+  <div class="col-text narrow">
+    <p class="eyebrow grad-3 rv">3 · Uncouplers</p>
+    <h2 class="rv">Uncouplers</h2>
+    <ul class="bullets small">
+      <li data-build="1">e<sup>−</sup> flow continues — <b>no ATP</b></li>
+      <li data-build="1">Inner membrane <b>leaks H<sup>+</sup></b></li>
+      <li data-build="2">No proton-motive force</li>
+      <li data-build="2" class="t-heat">Energy → <b>heat</b></li>
+    </ul>
+    <div class="chips stack" data-build="3">
+      <span class="chip warm" data-tip="dnp">2,4-Dinitrophenol</span>
+      <span class="chip warm" data-tip="dicumarol">Dicumarol</span>
+      <span class="chip warm" data-tip="salicylate">Salicylate</span>
+      <span class="chip warm" data-tip="ucp1">Uncoupling protein</span>
+    </div>
+  </div>
+</section>
+
+<section class="slide layout-split s3" data-key="toxin-lab" data-section="3" data-scene="etc" data-view="right-wide" data-steps="0" data-title="Live lab">
+  <div class="col-text narrow">
+    <p class="eyebrow grad-3 rv">Live lab</p>
+    <h2 class="rv">Poison the<br>power plant</h2>
+    <div class="widget rv" data-widget="toxinlab"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CLOSING ═══════════════════════════ -->
+
+<section class="slide" data-key="recap" data-steps="0" data-title="Key numbers">
+  <header class="head">
+    <p class="eyebrow rv">Recap</p>
+    <h2 class="rv">The numbers to remember</h2>
+  </header>
+  <div class="widget rv" data-widget="recap"></div>
+</section>
+
+<section class="slide" data-key="quiz" data-title="Test yourself">
+  <div class="widget rv" data-widget="quizcta"></div>
+</section>
+
+<section class="slide" data-key="refs" data-title="References">
+  <header class="head">
+    <p class="eyebrow rv">Sources</p>
+    <h2 class="rv">References</h2>
+  </header>
+  <div class="refs">
+    <article class="ref rv">
+      <span class="ref-k">Textbook</span>
+      <h3>Lippincott Illustrated Reviews: Biochemistry</h3>
+      <p>9th ed. · Abali, Cline, Franklin, Viselli · Wolters Kluwer</p>
+      <p class="dim" data-ref="lippincott">Ch. 5, Bioenergetics &amp; oxidative phosphorylation, pp. 85–94 · TCA cycle &amp; PDH complex chapter</p>
+    </article>
+    <article class="ref rv">
+      <span class="ref-k">Lecture · L.10</span>
+      <h3>Oxidative phosphorylation &amp; ETC</h3>
+      <p>Dr. D. Vijaya Marakala, Associate Professor · COMHS, National University of Science &amp; Technology</p>
+    </article>
+    <article class="ref rv">
+      <span class="ref-k">Lecture · L.12 – L.13</span>
+      <h3>PDH complex &amp; citric acid cycle</h3>
+      <p>Reactions, regulation and energetics · COMHS, National University of Science &amp; Technology</p>
+    </article>
+    <article class="ref rv" data-ref="extra">
+      <span class="ref-k">Supporting facts</span>
+      <h3>Hover-card details</h3>
+      <p class="dim" id="ref-extra">NCBI Bookshelf (StatPearls) · nobelprize.org</p>
+    </article>
+  </div>
+  <p class="foot-hint rv">3D models are schematic teaching models, not atomic structures.</p>
+</section>
+
+  </div><!-- /slides -->
+
+  <div id="chrome">
+    <div class="progress"><span class="bar"></span></div>
+    <div class="counter"><span class="sec"></span><span class="num"></span></div>
+    <nav class="nav">
+      <button class="nav-prev" aria-label="Previous">‹</button>
+      <button class="nav-next" aria-label="Next">›</button>
+    </nav>
+  </div>
+  <div id="tip" role="tooltip" aria-hidden="true"></div>
+  <div id="blackout"></div>
+</div><!-- /stage -->
+</div><!-- /viewport -->
+
+<div id="overview" class="overlay" aria-hidden="true">
+  <div class="ov-inner">
+    <div class="ov-head"><h3>All slides</h3><span>Esc to close</span></div>
+    <div class="ov-grid"></div>
+  </div>
+</div>
+
+<div id="help" class="overlay" aria-hidden="true">
+  <div class="help-card">
+    <h3>Shortcuts</h3>
+    <dl>
+      <dt><kbd>→</kbd> <kbd>Space</kbd> <kbd>PgDn</kbd></dt><dd>Next step / slide</dd>
+      <dt><kbd>←</kbd> <kbd>PgUp</kbd></dt><dd>Previous</dd>
+      <dt><kbd>O</kbd></dt><dd>Overview of all slides</dd>
+      <dt><kbd>F</kbd></dt><dd>Fullscreen</dd>
+      <dt><kbd>B</kbd></dt><dd>Black screen</dd>
+      <dt><kbd>Q</kbd></dt><dd>Open the question bank</dd>
+      <dt><kbd>Home</kbd> <kbd>End</kbd></dt><dd>First / last slide</dd>
+      <dt>Number + <kbd>Enter</kbd></dt><dd>Jump to slide</dd>
+    </dl>
+    <p>Hover anything glowing for details.</p>
+  </div>
+</div>
+
+<div id="quiz-overlay" class="overlay" aria-hidden="true">
+  <button class="quiz-close" aria-label="Close quiz">✕</button>
+  <iframe title="Question bank" data-src="quiz.html?embed=1"></iframe>
+</div>
+
+<script src="vendor/gsap/gsap.min.js"></script>
+<script src="vendor/qrcode/qrcode.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

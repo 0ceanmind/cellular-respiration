@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Question Bank — PDH · TCA · ETC</title>
+<meta name="description" content="Exam-style MCQs on the PDH complex, TCA cycle, electron transport chain and oxidative phosphorylation.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+<main id="app">
+  <section id="start" class="view on">
+    <a class="back" href="index.html" data-hide-embed>← Presentation</a>
+    <p class="kicker">The professor's question bank</p>
+    <h1>Test yourself.</h1>
+    <p class="lede"><b id="qcount">—</b> single-best-answer questions on the PDH complex, the TCA cycle, the electron transport chain and oxidative phosphorylation.</p>
+
+    <div class="block">
+      <div class="block-h"><span>Topics</span><button class="link" id="allTopics">Select all</button></div>
+      <div id="topics" class="topics"></div>
+    </div>
+    <div class="block">
+      <div class="block-h"><span>Questions</span></div>
+      <div class="seg" id="len"><button data-v="10" class="on">10</button><button data-v="20">20</button><button data-v="40">40</button><button data-v="0">All</button></div>
+    </div>
+    <button class="primary" id="go">Start</button>
+    <p class="best" id="best"></p>
+    <details class="about">
+      <summary>About these questions</summary>
+      <p id="aboutText"></p>
+    </details>
+  </section>
+
+  <section id="quiz" class="view">
+    <header class="qbar">
+      <button class="icon" id="quit" aria-label="Back to start">←</button>
+      <div class="prog"><i id="progBar"></i></div>
+      <span class="qnum" id="qnum">1 / 10</span>
+      <span class="score" id="score">0 ✓</span>
+    </header>
+    <div class="qcard" id="qcard">
+      <div class="meta"><span class="tag" id="qtopic"></span><span class="obj" id="qobj"></span><span class="origin" id="qorigin"></span></div>
+      <h2 id="qstem"></h2>
+      <div class="opts" id="opts"></div>
+      <div class="explain" id="explain">
+        <span class="verdict" id="verdict"></span>
+        <p id="exText"></p>
+      </div>
+      <div class="actions"><span class="keys">Keys: <kbd>A</kbd>–<kbd>E</kbd> answer · <kbd>Enter</kbd> next</span><button class="primary small" id="next" disabled>Next</button></div>
+    </div>
+  </section>
+
+  <section id="result" class="view">
+    <p class="kicker">Result</p>
+    <div class="ring-wrap">
+      <svg viewBox="0 0 120 120" class="ring"><circle cx="60" cy="60" r="52" class="track"/><circle cx="60" cy="60" r="52" class="val" id="ringVal"/></svg>
+      <div class="ring-txt"><b id="pct">0%</b><span id="frac">0 / 0</span></div>
+    </div>
+    <p class="msg" id="msg"></p>
+    <div id="breakdown" class="breakdown"></div>
+    <div class="ractions">
+      <button class="primary" id="retryWrong">Retry the ones I missed</button>
+      <button class="ghost" id="again">New quiz</button>
+    </div>
+    <div id="review" class="review"></div>
+  </section>
+</main>
+<script type="module" src="js/quiz.js"></script>
+</body>
+</html>
