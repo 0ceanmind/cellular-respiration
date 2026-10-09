@@ -1,5 +1,5 @@
 // "The Bridge": pyruvate crosses into the matrix and PDH turns it into acetyl CoA + CO2 + NADH.
-import { THREE, makeScene, studioLights, label, orbit, glowSprite, protein, COLORS, damp, mulberry } from './kit.js';
+import { THREE, makeScene, studioLights, label, orbit, glowSprite, protein, COLORS, damp, mulberry, fade } from './kit.js';
 import { buildPDH, buildPyruvate, buildCO2, buildAcetylCoA, token } from './models.js';
 
 function bilayer(ctx, x, color) {
@@ -99,7 +99,7 @@ export function create(ctx) {
   const tgt = { tca: 0.3, ghost: 0, pdh: 0.35, comp: 0.5 };
 
   function setAlpha(obj, a) {
-    obj.traverse(o => { if (o.material && 'opacity' in o.material) { o.material.transparent = true; o.material.opacity = a; } });
+    obj.traverse(o => { if (o.material && 'opacity' in o.material) fade(o.material, a); });
   }
   function place(t) {
     // pyruvate path: cytosol → carrier → PDH
@@ -128,9 +128,9 @@ export function create(ctx) {
       const v = Math.max(0, u - 0.5);
       acoa.position.set(2.25 + Math.min(v, 2.2) * 0.62, 0.05 + Math.sin(v * 2) * 0.05, 0.1);
       acoa.scale.setScalar(Math.min(0.78, v * 2.5 + 0.2));
-      const fade = t > T - 0.8 ? Math.max(0, (T - t) / 0.8) : 1;
-      [co2, acoa, nadh].forEach(o => o.traverse(c => { if (c.material && 'opacity' in c.material) { c.material.transparent = true; c.material.opacity = fade; } }));
-      [L.co2, L.acoa, L.nadh].forEach(l => l.element.style.opacity = fade);
+      const fadeA = t > T - 0.8 ? Math.max(0, (T - t) / 0.8) : 1;
+      [co2, acoa, nadh].forEach(o => o.traverse(c => { if (c.material && 'opacity' in c.material) fade(c.material, fadeA); }));
+      [L.co2, L.acoa, L.nadh].forEach(l => l.element.style.opacity = fadeA);
     }
     pdh.group.scale.setScalar(0.62 * (1 + (t > 3.4 && t < 4.6 ? Math.sin((t - 3.4) / 1.2 * Math.PI) * 0.1 : 0)));
   }
@@ -166,7 +166,7 @@ export function create(ctx) {
       pdh.group.rotation.y = t * 0.25; pdh.group.rotation.x = Math.sin(t * 0.3) * 0.3;
       tca.rotation.z = -t * 0.8;
       tca.material.emissiveIntensity = 0.1 + vis.tca * 0.5;
-      tca.material.opacity = 0.25 + vis.tca * 0.75; tca.material.transparent = true;
+      fade(tca.material, 0.25 + vis.tca * 0.75);
       tcaGlow.material.opacity = vis.tca * 0.35;
       setAlpha(ghost, vis.ghost * 0.9);
       pdh.group.traverse(o => { if (o.material && o.material.emissive) o.material.emissiveIntensity = 0.04 + vis.pdh * 0.12; });

@@ -1,5 +1,5 @@
 // Reusable molecular models.
-import { THREE, COLORS, protein, atom, bond, blob, glowMat, label } from './kit.js';
+import { THREE, COLORS, protein, atom, bond, blob, glowMat, label, fade } from './kit.js';
 
 /* ── PDH complex (schematic) ───────────────────────────────────────────
    E2 trimers sit on the 20 vertices of a pentagonal dodecahedron (the core),
@@ -106,12 +106,10 @@ export function buildPDH(ctx, { scale = 1 } = {}) {
       for (const n of ['E1', 'E2', 'E3']) {
         const m = mats[n];
         const on = !name || name === n;
-        m.transparent = true;
-        m.opacity = on ? 1 : 0.16;
-        m.emissiveIntensity = name === n ? 0.55 : 0.08;
-        m.depthWrite = on;
+        fade(m, on ? 1 : 0.06);
+        m.emissiveIntensity = name === n ? 0.6 : 0.08;
       }
-      cageMat.opacity = !name || name === 'E2' ? 0.45 : 0.08;
+      cageMat.opacity = !name || name === 'E2' ? 0.45 : 0.04;
       arms.material.opacity = !name ? 0.55 : 0.12;
     },
     update(t) {

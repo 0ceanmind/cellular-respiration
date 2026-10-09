@@ -32,6 +32,8 @@ export class SceneManager {
     this.activeName = null;
     this.viewShift = { x: 0 };
     this.token = 0;
+    this.quality = 1;                 // adaptive resolution multiplier
+    this.perf = { frames: 0, time: 0, good: 0 };
 
     const r = this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance', alpha: false });
     r.setClearColor(0x000000, 1);
@@ -71,8 +73,9 @@ export class SceneManager {
     this.bloom.strength = strength; this.bloom.radius = radius; this.bloom.threshold = threshold;
   }
 
-  resize(scale) {
-    const pr = Math.min((window.devicePixelRatio || 1) * scale, 2);
+  resize(scale = this.lastScale || 1) {
+    this.lastScale = scale;
+    const pr = Math.max(0.5, Math.min((window.devicePixelRatio || 1) * scale, 2) * this.quality);
     this.renderer.setPixelRatio(pr);
     this.renderer.setSize(W, H, false);
     this.composer.setPixelRatio(pr);
@@ -202,12 +205,24 @@ export class SceneManager {
     else this.app.tips.hide();
   }
 
+  // keep 3D smooth on any projector/laptop: lower the render resolution if frames drop, recover when there is headroom
+  adapt(dt) {
+    const p = this.perf;
+    p.frames++; p.time += dt;
+    if (p.time < 1.5) return;
+    const fps = p.frames / p.time;
+    p.frames = 0; p.time = 0;
+    if (fps < 45 && this.quality > 0.55) { this.quality = Math.max(0.55, this.quality - 0.15); p.good = 0; this.resize(); }
+    else if (fps > 57 && this.quality < 1 && ++p.good >= 4) { this.quality = Math.min(1, this.quality + 0.1); p.good = 0; this.resize(); }
+  }
+
   loop() {
     requestAnimationFrame(this.loop);
     const inst = this.active;
     const dt = Math.min(this.clock.getDelta(), 0.05);
     if (!inst || document.hidden) return;
     const t = this.clock.elapsedTime;
+    this.adapt(dt);
     inst.update?.(dt, t);
     inst.controls?.update();
     const cam = inst.camera;

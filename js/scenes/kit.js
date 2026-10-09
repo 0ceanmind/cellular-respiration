@@ -163,6 +163,14 @@ export const smooth = t => t * t * (3 - 2 * t);
 export const easeInOut = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 export function damp(cur, target, lambda, dt) { return lerp(cur, target, 1 - Math.exp(-lambda * dt)); }
 
+// fade a material in/out. Materials built as opaque compile with alpha forced to 1,
+// so the first switch to transparent must trigger a recompile (needsUpdate).
+export function fade(m, a) {
+  if (!m.transparent) { m.transparent = true; m.needsUpdate = true; }
+  m.opacity = a;
+  m.depthWrite = a > 0.98;
+}
+
 // set emissive boost on all meshes under obj (for hover highlight)
 export function setGlow(obj, amount) {
   obj.traverse(o => {

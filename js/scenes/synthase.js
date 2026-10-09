@@ -1,7 +1,7 @@
 // ATP synthase close-up (oriented like the textbook figure: F1 up in the matrix, Fo in the membrane).
 // Rotor = c-ring + γ + ε; stator = a + peripheral stalk + δ + α3β3. Protons enter via a, ride the ring, exit
 // to the matrix; every 120° of rotation one β subunit releases an ATP (3 per turn). Oligomycin jams Fo.
-import { THREE, makeScene, studioLights, label, orbit, protein, blob, glowMat, glowSprite, COLORS, damp, mulberry, clamp } from './kit.js';
+import { THREE, makeScene, studioLights, label, orbit, protein, blob, glowMat, glowSprite, COLORS, damp, mulberry, clamp, fade } from './kit.js';
 
 export function create(ctx) {
   const { scene, camera } = makeScene(ctx, { fov: 30, pos: [2.2, 2.6, 14.5], target: [0, 1.55, 0] });
@@ -103,7 +103,7 @@ export function create(ctx) {
     hl = name;
     const on = o => !name || groups[name]?.includes(o);
     [cring, aSub, bMesh, hexa, gamma, eps, delta, cam].forEach(o => {
-      o.traverse(m => { if (m.isMesh && m.material) { m.material.transparent = true; m.material.opacity = on(o) ? 1 : 0.15; m.material.depthWrite = on(o); if (m.material.emissive) m.material.emissiveIntensity = name && on(o) ? 0.32 : 0.08; } });
+      o.traverse(m => { if (m.isMesh && m.material) { fade(m.material, on(o) ? 1 : 0.12); if (m.material.emissive) m.material.emissiveIntensity = name && on(o) ? 0.32 : 0.08; } });
     });
     L.F1.element.classList.toggle('focus', name === 'F1'); L.F0.element.classList.toggle('focus', name === 'F0');
   }
@@ -113,6 +113,7 @@ export function create(ctx) {
     S.oligo = on; plug.visible = true;
     gsap.to(S, { plugIn: on ? 1 : 0, duration: 1.0, ease: on ? 'back.out(1.6)' : 'power2.in', onComplete: () => { if (!on) plug.visible = false; } });
     L.oligo.element.classList.toggle('hidden', !on);
+    L.atp.element.classList.toggle('hidden', on);
   }
 
   return {
@@ -134,6 +135,7 @@ export function create(ctx) {
         const segOn = slide.querySelector('[data-control="oligo"] .on')?.dataset.val === 'on';
         const want = s >= 1 || segOn;
         if (want !== S.oligo) setOligo(want);
+        L.oligo.element.classList.toggle('hidden', !want); L.atp.element.classList.toggle('hidden', want);
         slide.querySelectorAll('[data-control="oligo"] button').forEach(b => b.classList.toggle('on', (b.dataset.val === 'on') === want));
         S.omegaT = 1.5;
       }

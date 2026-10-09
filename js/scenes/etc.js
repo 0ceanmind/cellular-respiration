@@ -2,7 +2,7 @@
 // Electrons flow NADH/FADH2 → I/II → Q → III → cyt c → IV → O2; protons are pumped 4·4·2 into the
 // intermembrane space; the pool drives ATP synthase. Inhibitors, oligomycin and uncouplers change the
 // physics, and the gauges (stats) emerge from it — including respiratory control (tight coupling).
-import { THREE, makeScene, studioLights, label, orbit, protein, blob, glowMat, glowSprite, COLORS, damp, mulberry, clamp } from './kit.js';
+import { THREE, makeScene, studioLights, label, orbit, protein, blob, glowMat, glowSprite, COLORS, damp, mulberry, clamp, fade } from './kit.js';
 
 const X = { I: -4.7, II: -2.75, III: -0.55, IV: 1.75, V: 4.45 };
 const TOP = 0.55, BOT = -0.55;                // membrane faces (IMS above, matrix below)
@@ -135,7 +135,7 @@ export function create(ctx) {
   addL('phTop', '↓ pH · positive', 'sm', [3.6, 2.85, -0.5]);
   addL('phBot', '↑ pH · negative', 'sm', [-2.2, -3.4, -0.5]);
   addL('atp', 'ATP', 'big', [X.V + 1.2, -2.9, 0.4]);
-  addL('heat', 'Heat', 'big', [3.0, -1.6, 0.6]);
+  addL('heat', 'Heat', 'big', [3.0, -1.85, 0.9]);
   addL('agent', '', 'sm', [0, 0, 0]);
   L.p1.element.style.color = L.p3.element.style.color = L.p4.element.style.color = '#ff6961';
   L.atp.element.style.color = '#ffd60a'; L.heat.element.style.color = '#ff9a4a';
@@ -202,11 +202,11 @@ export function create(ctx) {
     hl = name;
     Object.entries(complexes).forEach(([n, g]) => {
       const on = !name || name === n || (name === 'mobile' && false);
-      g.traverse(o => { if (o.isMesh && o.material) { o.material.transparent = true; o.material.opacity = on ? 1 : 0.18; o.material.depthWrite = on; } });
+      g.traverse(o => { if (o.isMesh && o.material) fade(o.material, on ? 1 : 0.14); });
       g.userData.mat.emissiveIntensity = name === n ? 0.5 : g.userData.base;
     });
     const mob = !name || name === 'mobile';
-    Q.material.opacity = cytc.material.opacity = mob ? 1 : 0.2; Q.material.transparent = cytc.material.transparent = true;
+    fade(Q.material, mob ? 1 : 0.2); fade(cytc.material, mob ? 1 : 0.2);
     Q.scale.setScalar(name === 'mobile' ? 1.6 : 1); cytc.scale.setScalar(name === 'mobile' ? 1.4 : 1);
     Object.keys(L).forEach(k => { if (['C1', 'C2', 'C3', 'C4', 'C5'].includes(k)) L[k].element.classList.toggle('focus', name === k); });
     L.Q.element.classList.toggle('focus', name === 'mobile'); L.cytc.element.classList.toggle('focus', name === 'mobile');
@@ -226,7 +226,7 @@ export function create(ctx) {
     S.electrons.forEach(e => { e.held = false; });
     if (a.label) {
       L.agent.element.innerHTML = a.label;
-      const p = a.block === 'C1' ? [X.I - 1.4, -1.9, 0.8] : a.block === 'C3' ? [X.III, -1.3, 0.9] : a.block === 'C4' ? [X.IV + 1.1, -1.4, 0.9] : a.oligo ? [X.V + 1.6, 0.55, 0.6] : [3.0, 1.3, 0.6];
+      const p = a.block === 'C1' ? [X.I - 1.4, -1.9, 0.8] : a.block === 'C3' ? [X.III, -1.3, 0.9] : a.block === 'C4' ? [X.IV + 1.1, -1.4, 0.9] : a.oligo ? [X.V + 1.6, 0.55, 0.6] : [3.0, -1.0, 0.9];
       L.agent.position.set(...p);
     }
     L.agent.element.classList.toggle('hidden', !a.label);

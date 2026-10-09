@@ -169,7 +169,7 @@ export function create(ctx) {
     ims: label('Intermembrane space', 'lbl sm muted'),
   };
   L_.outer.position.set(-1.2, RO + 0.35, 0); L_.inner.position.set(1.9, -RI - 0.05, 0.3);
-  L_.cristae.position.set(folds[4].x, 0.35, 0.4); L_.matrix.position.set(-1.6, -0.15, -0.4);
+  L_.cristae.position.set(folds[6].x, RI * 0.62, 0.25); L_.matrix.position.set(-2.1, -0.62, -0.3);
   L_.ims.position.set(2.6, RO - 0.12, 0.2);
   Object.values(L_).forEach(l => { l.element.classList.add('hidden'); body.add(l); });
   const showLabels = on => Object.values(L_).forEach(l => l.element.classList.toggle('hidden', !on));
